@@ -16,8 +16,13 @@ For a detailed discussion of the methodology with which we assembled this databa
 Arguments (arguments.csv) Data Dictionary
 
 
-| Score_N              | Disputant(s) N wins the   argument according to Maimonides (1) or loses (0).                                                                                                                             |
+| Field                | Description                                                                                                                                                                                              |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Chapter              | Which chapter number of the masechtot where the argument   appears.                                                                                                                                      |
+| Ith_chapter_in_seder | Which chapter number of the seder where the argument appears.                                                                                                                                            |
+| Comment              | Miscellaneous notes on the dispute not fitting into other   variables.                                                                                                                                   |
+| Disputant_N          | The rabbi(s) offering the nth position in the argument.                                                                                                                                                  |
+| Score_N              | Disputant(s) N wins the argument according to Maimonides (1)   or loses (0).                                                                                                                             |
 | Winner               | Which disputant(s), by name, won the argument according to   Maimonides.                                                                                                                                 |
 | Result_N             | Relative argument positions like Chumra 1.0 / Kula 0.0 (higher   number is stricter), BHB 1.0 / 0.0, Chayav 1.0 / Patur 0.0, and a few less   common topics have separate scores.                        |
 | Seder_Hebrew         | Name of seder of the Talmud in which the argument appears,   written in Hebrew.                                                                                                                          |
@@ -25,10 +30,10 @@ Arguments (arguments.csv) Data Dictionary
 | Seder_Number         | Which of the six seders of the Talmud the argument appears in.                                                                                                                                           |
 | Seder_Translate      | English translation of which of the six seders of the Talmud   the argument appears in.                                                                                                                  |
 | SeqID                | Unique argument ID.                                                                                                                                                                                      |
-| tab                  | Hebrew name (and number of order) of which of the 63 masechtot   / books of the Talmud where the argument is appears.                                                                                    |
-| tabnum               | Which of the 63 masechtot / books of the Talmud where the   argument is appears.                                                                                                                         |
-| Tractate_Name_Hebrew | Hebrew name of which of the 63 masechtot / books of the Talmud   where the argument is appears.                                                                                                          |
-| IsCopy               | Is this the second or later appearance of a dispute in the   Talmud? Always false because duplicate arguments are now filtered out. First   appearance only.                                             |
+| tab                  | The Hebrew name (and number of order) of the 63 masechtot in   which the argument is appears.                                                                                                            |
+| tabnum               | Which of the 63 masechtot / books of the Talmud where the   argument appears in.                                                                                                                         |
+| Tractate_Name_Hebrew | Which of the 63 masechtot / books of the Talmud where the   argument appears in, name in Hebrew.                                                                                                         |
+| IsCopy               | Is this the second or later appearance of a dispute in the   Mishnah? Always false because duplicate arguments are now filtered out. First   appearance only.                                            |
 | NumDisp              | Number of distinct disputant positions contained within this   argument. This is not the combinations of disputes or a count of all possible   combinations of disputants. Also see field EffectiveRows. |
 | EffectiveRows        | The number of disputes contained within the argument. All   rabbis involved in a dispute are paired up with all possible other rabbis who   are involved in the dispute but take a different position.   |
 | Location             | Combination of chapter and line number(s) within that chapter   where the dispute occurs.                                                                                                                |
