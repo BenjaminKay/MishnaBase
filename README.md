@@ -1,7 +1,7 @@
 # MishnaBase
 MishnaBase
 
-This is the database of Mishnaic disputes and constituant disputes used in our Kazhdan and <a href="https://sites.google.com/site/benjaminkay/home">Kay</a>  (R&R at <a href="https://jewish-faculty.biu.ac.il/en/JSIJ"> "JSIJ"</a>) working paper.\* 
+This is the database of Mishnaic disputes and constituant disputes used in our Kazhdan and <a href="https://sites.google.com/site/benjaminkay/home">Kay</a>  (R&R at <a href="https://jewish-faculty.biu.ac.il/en/JSIJ"> JSIJ</a>) working paper.\* 
 
 In addition to downloading the database here on <a href="https://github.com/BenjaminKay/MishnaBase/">github</a>, you can see the database in action: <a href="https://mishnabase.glitch.me/">here</a>. 
 
