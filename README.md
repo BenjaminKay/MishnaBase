@@ -15,6 +15,7 @@ For a detailed discussion of the methodology with which we assembled this databa
 
 Arguments (arguments.csv) Data Dictionary
 
+
 | Score_N              | Disputant(s) N wins the   argument according to Maimonides (1) or loses (0).                                                                                                                             |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Winner               | Which disputant(s), by name, won the argument according to   Maimonides.                                                                                                                                 |
