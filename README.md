@@ -13,7 +13,7 @@ For a detailed discussion of the methodology with which we assembled this databa
 \* - The views and opinions expressed in this article are those of the authors and do not reflect the views or opinions of their employers. 
 
 
-Arguments Data Dictionary
+Arguments (arguments.csv) Data Dictionary
 
 | Score_N              | Disputant(s) N wins the   argument according to Maimonides (1) or loses (0).                                                                                                                             |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
