@@ -50,6 +50,7 @@ For a detailed discussion of the methodology with which we assembled this databa
 | Owe_Sum              | Number of argument positions taking an owe position. Either 0   (not a owing argument) or 1 (an owing argument).                                                                                                                                        |
 | Strict_Sum           | Number of argument positions taking the strictest position.   Generally 0 (not a strictness argument) or 1 (one position is strictest), but   it can be more than 1 if there is a multi-way argument and more than one Tana   takes the strictest view. |
 | Money_Sum            | Number of argument positions taking an money owing position.   Generally 0 (not a money owing argument) or 1 (a money owing argument), but   it can be more than 1 if there is a multi-way argument and more than one Tana   takes the strictest view.  |
+
 Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Generator</a>
 
 
