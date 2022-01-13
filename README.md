@@ -84,7 +84,7 @@ Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Ge
 | FileSource            | Mishnah text source file  from the Maagar Sifrut ha-Kodesh (Mamre Institute)&dagger;.                                                                 |
 | HebrewChapterLocation | Using Hebrew numbering, what is the chapter location of the dispute.                                                                                                                                 |
 | MishnahKey            | Line number (entire Mishnah, not restarting by seder) sourced from the Maagar Sifrut ha-Kodesh (Mamre Institute)&dagger; and author calculations.
-                                                                                    |
+                                              |
 | Strict_Result_N       | Relative argument positions like Chumra 1.0 / Kula 0.0 (higher number is stricter), BHB 1.0 / 0.0 (lower is stricter).                                                                               |
 | Strict_Result_Score_N | Numeric portion of Strict_Result_N|
 
