@@ -81,11 +81,14 @@ Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Ge
 | tabnum                | Which of the 63 masechtot / books of the Talmud where the   argument appears in.                                                                                                                       |
 | Seder_Number          | Which of the six seders of the Talmud the argument appears in.                                                                                                                                         |
 | ChapterRowKey         | Row in source text file for matching Mishnah text from the Maagar Sifrut ha-Kodesh (Mamre Institute).                                                                                                                   |
-| FileSource            | Mishnah text source file from    Holy Literature website (https://kodesh.snunit.k12.il/b/h/h1.htm)   sourced from the Mamre Institute.                                                                 |
+| FileSource            | Mishnah text source file  from the Maagar Sifrut ha-Kodesh (Mamre Institute)&dagger;.                                                                 |
 | HebrewChapterLocation | Using Hebrew numbering, what is the chapter location of the dispute.                                                                                                                                 |
-| MishnahKey            | Line number (entire Mishnah, not restarting by seder) sourced from the Maagar Sifrut ha-Kodesh (Mamre Institute) and author calculations.
+| MishnahKey            | Line number (entire Mishnah, not restarting by seder) sourced from the Maagar Sifrut ha-Kodesh (Mamre Institute)&dagger; and author calculations.
                                                                                     |
-| Strict_Result_N       | Relative argument positions like Chumra 1.0 / Kula 0.0 (higher   number is stricter), BHB 1.0 / 0.0 (lower is stricter).                                                                               |
+| Strict_Result_N       | Relative argument positions like Chumra 1.0 / Kula 0.0 (higher number is stricter), BHB 1.0 / 0.0 (lower is stricter).                                                                               |
 | Strict_Result_Score_N | Numeric portion of Strict_Result_N|
 
 Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Generator</a>
+
+
+&dagger; - Digital text copy of the Mishnah used for error checking and other research purposes from the Mamre Institute's Maagar Sifrut ha-Kodesh, available at  https://kodesh.snunit.k12.il/b/h/h1.htm, 2009. 
