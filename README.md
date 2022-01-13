@@ -53,7 +53,7 @@ For a detailed discussion of the methodology with which we assembled this databa
 Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Generator</a>
 
 
-### Disputes (<a href="https://github.com/BenjaminKay/MishnaBase/blob/main/arguments.csv">disputes.csv</a>) Data Dictionary
+### Disputes (<a href="https://github.com/BenjaminKay/MishnaBase/blob/main/disputes.csv">disputes.csv</a>) Data Dictionary
 
 | Field                 | Description                                                                                                                                                                                            |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
