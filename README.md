@@ -1,13 +1,12 @@
 # MishnaBase
-MishnaBase
 
-This is the database of Mishnaic disputes and constituant disputes used in our Kazhdan and <a href="https://sites.google.com/site/benjaminkay/home">Kay</a>  (R&R at <a href="https://jewish-faculty.biu.ac.il/en/JSIJ"> JSIJ</a>) working paper.\* 
+##Citation: 
+Kazhdan, Daniel and Benjamin S. Kay. "Unlocking Ancient Texts with New Tools: A Data-Centered Study of the Mishnah." Jewish Studies, an Internet Journal (forthcoming).
 
-In addition to downloading the database here on <a href="https://github.com/BenjaminKay/MishnaBase/">github</a>, you can see the database in action: <a href="https://mishnabase.glitch.me/">here</a>. 
+## Overview
+This is the database of Mishnaic disputes and constituant disputes used in our Kazhdan and <a href="https://sites.google.com/site/benjaminkay/home">Kay</a>  (R&R at <a href="https://jewish-faculty.biu.ac.il/en/JSIJ"> JSIJ</a>) working paper.\* In addition to downloading the database here on <a href="https://github.com/BenjaminKay/MishnaBase/">github</a>, you can see the database in action: <a href="https://mishnabase.glitch.me/">here</a>. 
 
-
-
-
+## Description of Data
 Broadly speaking, our database is like the <a href="http://scdb.wustl.edu/">US Supreme Court database</a> and <a href="https://www.ruf.rice.edu/~pbrace/statecourt/">similar</a> <a href="http://artsandsciences.sc.edu/poli/juri/highcts.htm">databases</a>  of other apex courts. These databases are <a href="https://libguides.princeton.edu/c.php?g=916665&p=6607543">widely used</a> by legal scholars who wish to make claims about broad trends in judicial decisions. The Supreme Court database includes, inter alia, (a) information on which Supreme Court justices are involved in a decision, (b) the direction of the justices’ opinions (e.g., pro- or anti-defendant), and (c) which justices prevail. Our respective analogy for the Mishnah is to code (a) which Tannaim are involved in a decision, (b) the direction of the Tanna’s opinions (e.g., strict or lenient), and (c) which Tanma prevails.  We manually went through the Mishnah, coded every argument along the various parameters described above, and then used computers to collate the data to show who argues with whom and what attitudes they tended to take in these arguments. 
 
 For a detailed discussion of the methodology with which we assembled this database, please see appendix A of our paper. 
@@ -15,7 +14,8 @@ For a detailed discussion of the methodology with which we assembled this databa
 \* - The views and opinions expressed in this article are those of the authors and do not reflect the views or opinions of their employers. 
 
 
-Arguments (<a href="https://github.com/BenjaminKay/MishnaBase/blob/main/arguments.csv">arguments.csv</a>) Data Dictionary
+## Data Dictionary
+### Arguments (<a href="https://github.com/BenjaminKay/MishnaBase/blob/main/arguments.csv">arguments.csv</a>) Data Dictionary
 
 
 | Field                | Description                                                                                                                                                                                                                                             |
