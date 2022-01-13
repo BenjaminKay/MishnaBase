@@ -14,7 +14,7 @@ For a detailed discussion of the methodology with which we assembled this databa
 \* - The views and opinions expressed in this article are those of the authors and do not reflect the views or opinions of their employers. 
 
 
-## Data Dictionary
+## Data Dictionaries
 ### Arguments (<a href="https://github.com/BenjaminKay/MishnaBase/blob/main/arguments.csv">arguments.csv</a>) Data Dictionary
 
 
