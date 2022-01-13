@@ -1,6 +1,6 @@
 # MishnaBase
 
-##Citation: 
+## Citation: 
 Kazhdan, Daniel and Benjamin S. Kay. "Unlocking Ancient Texts with New Tools: A Data-Centered Study of the Mishnah." Jewish Studies, an Internet Journal (forthcoming).
 
 ## Overview
