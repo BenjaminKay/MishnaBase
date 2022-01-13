@@ -80,10 +80,11 @@ Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Ge
 | Tractate_Name_Hebrew  | Which of the 63 masechtot / books of the Talmud where the   argument appears in, name in Hebrew.                                                                                                       |
 | tabnum                | Which of the 63 masechtot / books of the Talmud where the   argument appears in.                                                                                                                       |
 | Seder_Number          | Which of the six seders of the Talmud the argument appears in.                                                                                                                                         |
-| ChapterRowKey         | Row in source text file for matching Mishnah text from the   Mamra Institute.                                                                                                                          |
-| FileSource            | Mishnah text source file from    Holy Literature website (https://kodesh.snunit.k12.il/b/h/h1.htm)   sourced from the Mamra Institute.                                                                 |
-| HebrewChapterLocation | Using Hebrew numbering, what is the chapter location of the   dispute.                                                                                                                                 |
-| MishnahKey            | Line number (entire Mishnah, not restarting by seder) sourced   from the Mamra Institute and author calculations.                                                                                      |
+| ChapterRowKey         | Row in source text file for matching Mishnah text from the Maagar Sifrut ha-Kodesh (Mamre Institute).                                                                                                                   |
+| FileSource            | Mishnah text source file from    Holy Literature website (https://kodesh.snunit.k12.il/b/h/h1.htm)   sourced from the Mamre Institute.                                                                 |
+| HebrewChapterLocation | Using Hebrew numbering, what is the chapter location of the dispute.                                                                                                                                 |
+| MishnahKey            | Line number (entire Mishnah, not restarting by seder) sourced from the Maagar Sifrut ha-Kodesh (Mamre Institute) and author calculations.
+                                                                                    |
 | Strict_Result_N       | Relative argument positions like Chumra 1.0 / Kula 0.0 (higher   number is stricter), BHB 1.0 / 0.0 (lower is stricter).                                                                               |
 | Strict_Result_Score_N | Numeric portion of Strict_Result_N|
 
