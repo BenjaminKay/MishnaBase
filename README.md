@@ -87,6 +87,3 @@ Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Ge
 
 
 Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Generator</a>
-
-
-&dagger; - Digital text copy of the Mishnah used for error checking and other research purposes from the Mamre Institute's Maagar Sifrut ha-Kodesh, available at  https://kodesh.snunit.k12.il/b/h/h1.htm, 2009. 
