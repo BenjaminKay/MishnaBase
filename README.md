@@ -58,34 +58,33 @@ Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Ge
 
 | Field | Description |
 |---|---|
-| DisputeID | A unique dispute ID. A signle argument can contain multiple   disputes. |
+| DisputeID | A unique dispute ID. A signle argument can contain multiple disputes. |
 | Location | Combination of chapter and line number(s) within that chapter   where the dispute occurs.  |
-| Disputant_Hebrew_DNX | Disputant number N's name in Hebrew, possibly in one of X   different versions. |
-| Score_N | Disputant(s) N wins the argument according to Maimonides (1)   or loses (0). |
-| Money_N | Does disputant(s) N say they owe money (1 if yes, 0 if no or   not a money owing argument). |
+| EffectiveRows | The number of disputes contained within the argument. All rabbis involved in a dispute are paired up with all possible other rabbis who are involved in the dispute but take a different position. |
+| tab | The Hebrew name (and number of order) of the 63 masechtot in which the argument is appears. |
+| tabnum | The number of the masechtot where the argument appears in. |
+| Seder_Hebrew | Name of seder of the Talmud in which the argument appears, written in Hebrew. |
+| Seder_Name | Name of seder of the Talmud in which the argument appears, Hebrew name in English transliteration. |
+| Seder_Number | Which of the six seders of the Talmud the argument appears in. |
 | Seder_Translate | English translation of which of the six seders of the Talmud   the argument appears in. |
+| Tractate_Name_Hebrew | Which of the 63 masechtot / books of the Talmud where the   argument appears in, name in Hebrew. |
+| Chapter | Which chapter number of the masechtot where the argument appears. |
+| HebrewChapterLocation | Using Hebrew numbering, what is the chapter location of the dispute. |
+| Ith_chapter_in_seder | Which chapter number of the seder where the argument appears. |
+| Disputant_N | The rabbi(s) offering the nth position in the argument. |
+| Disputant_Hebrew_DNX | Disputant number N's name in Hebrew, possibly in one of X   different versions. |
 | OweQuestion | Is this a question about owing (1 if yes, 0 if no)? |
 | MoneyQuestion | Is this a question about owing money (1 if yes, 0 if no)? |
 | StrictQuestion | Is this a question about strictness (1 if yes, 0 if no)? |
-| Seder_Name | Name of seder of the Talmud in which the argument appears,   Hebrew name in English transliteration. |
-| Seder_Hebrew | Name of seder of the Talmud in which the argument appears,   written in Hebrew. |
-| Result_N | Relative argument positions like Chumra 1.0 / Kula 0.0 (higher   number is stricter), BHB 1.0 / 0.0, Chayav 1.0 / Patur 0.0, and a few less   common topics have separate scores. |
-| tab | The Hebrew name (and number of order) of the 63 masechtot in   which the argument is appears. |
-| EffectiveRows | The number of disputes contained within the argument. All   rabbis involved in a dispute are paired up with all possible other rabbis who   are involved in the dispute but take a different position. |
-| Disputant_N | The rabbi(s) offering the nth position in the argument. |
-| SeqID | Unique argument ID. |
-| Chapter | Which chapter number of the masechtot where the argument   appears. |
-| Ith_chapter_in_seder | Which chapter number of the seder where the argument appears. |
-| Winner | Which disputant(s), by name, won the argument according to   Maimonides. |
-| Tractate_Name_Hebrew | Which of the 63 masechtot / books of the Talmud where the   argument appears in, name in Hebrew. |
-| tabnum | Which of the 63 masechtot / books of the Talmud where the   argument appears in. |
-| Seder_Number | Which of the six seders of the Talmud the argument appears in. |
-| ChapterRowKey | Row in source text file for matching Mishnah text from the   Maagar Sifrut ha-Kodesh (Mamre Institute)&dagger;. |
-| FileSource | Mishnah text source file from the Maagar Sifrut ha-Kodesh   (Mamre Institute)&dagger;. |
-| HebrewChapterLocation | Using Hebrew numbering, what is the chapter location of the   dispute. |
-| MishnahKey | Line number (entire Mishnah, not restarting by seder) sourced   from the Maagar Sifrut ha-Kodesh (Mamre Institute)&dagger; and author   calculations. |
-| Strict_Result_N | Relative argument positions like Chumra 1.0 / Kula 0.0 (higher   number is stricter), BHB 1.0 / 0.0 (lower is stricter).  |
-| Strict_Result_Score_N | Numeric portion of Strict_Result_N |
+| Winner | Which disputant(s), by name, won the argument according to Maimonides. |
+| Result_N | Relative argument positions like Chumra 1.0 / Kula 0.0 (higher number is stricter), BHB 1.0 / 0.0, Chayav 1.0 / Patur 0.0, and a few less common topics have separate scores. |
+| Score_N | Disputant(s) N wins the argument according to Maimonides (1) or loses (0). |
+| AltOwe_N | Does disputant(s) N say they owe money (1 if yes, 0 if no or not a money owing argument). |
+| AltMoney_N | Does disputant(s) N say they owe money (1 if yes, 0 if no or not a money owing argument). |
+| AltStrict_N | Relative argument positions like Chumra 1.0 / Kula 0.0 (higher number is stricter), BHB 1.0 / 0.0 (lower is stricter).  |
+|Owe_Result_Score_N     | Numerical portion of Result_N but only for 'Owe' related arguments.|
+|Money_Result_Score_N   | Numerical portion of Result_N but only for 'Money' related arguments.|
+|Strict_Result_Score_N  | Numerical portion of Result_N but only for 'Strictness' related arguments. See AltStrict_N definition for using this number.|
 
 Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Generator</a>
 
