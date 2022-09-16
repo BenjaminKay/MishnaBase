@@ -13,6 +13,15 @@ For a detailed discussion of the methodology with which we assembled this databa
 
 \* - The views and opinions expressed in this article are those of the authors and do not reflect the views or opinions of their employers. 
 
+This repository includes a number of files including:
+|File Name|Description| 
+|__|__|
+|Arguments.csv |  Argument level data. A topic in the talmud where at least two Tannaim disagree on a topic. An argument contains one or more disputes.|
+|Disputes.csv |  Dispute level data. A dispute is a disagreement between exactly two Tannaim. A dispute is associated with exactly one argument.|
+|Top30LinkMatrixWTies_CullFALSE.csv | Dispute relations between top 30 Tannaim by disputes. |
+|Top30PrettyTableUnique_CullFALSE.csv | Tanna level statistics for top 30 Tannaim by disputes. |
+|Top30StrictWinLinkMatrix_CullFALSE.csv | Strictness relations between top 30 Tannaim by disputes. |
+|Top30WinLinkMatrix_CullFALSE.csv | | Win (according to Maimonides) relations between top 30 Tannaim by disputes. |
 
 ## Data Dictionaries
 ### Arguments (<a href="https://github.com/BenjaminKay/MishnaBase/blob/main/arguments.csv">arguments.csv</a>) Data Dictionary
@@ -20,7 +29,7 @@ For a detailed discussion of the methodology with which we assembled this databa
 
 | Field                | Description                                                                                                   |
 |----------------------|---------------------------------------------------------------------------------------------------------------|
-| SeqID                | Unique argument ID.                                                                                           |
+| SeqID                | Unique argument ID.  A dispute is associated with exactly one argument.           |
 | Location             | Combination of chapter and line number(s) within that chapter where the dispute occurs.                       |
 | EffectiveRows        | The number of disputes contained within the argument. All rabbis involved in a dispute are paired up with all possible other rabbis who   are involved in the dispute but take a different position.|
 | tab                  | The Hebrew name (and number of order) of the 63 masechtot in which the argument is appears.|
@@ -57,7 +66,7 @@ Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Ge
 
 | Field | Description |
 |---|---|
-| DisputeID | A unique dispute ID. A signle argument can contain multiple disputes. |
+| DisputeID | A unique dispute ID. A single argument can contain multiple disputes. |
 | Location | Combination of chapter and line number(s) within that chapter   where the dispute occurs.  |
 | EffectiveRows | The number of disputes contained within the argument. All rabbis involved in a dispute are paired up with all possible other rabbis who are involved in the dispute but take a different position. |
 | tab | The Hebrew name (and number of order) of the 63 masechtot in which the argument is appears. |
