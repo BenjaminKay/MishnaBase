@@ -23,7 +23,7 @@ For a detailed discussion of the methodology with which we assembled this databa
 |Top30LinkMatrixWTies_CullFALSE.csv | Dispute relations between top 30 Tannaim by disputes. |
 |Top30PrettyTableUnique_CullFALSE.csv | Tanna level statistics for top 30 Tannaim by disputes. |
 |Top30StrictWinLinkMatrix_CullFALSE.csv | Strictness relations between top 30 Tannaim by disputes. |
-|Top30WinLinkMatrix_CullFALSE.csv | | Win (according to Maimonides) relations between top 30 Tannaim by disputes. |
+|Top30WinLinkMatrix_CullFALSE.csv | Win (according to Maimonides) relations between top 30 Tannaim by disputes. |
 
 
 ## Data Dictionaries
