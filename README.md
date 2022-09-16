@@ -18,38 +18,37 @@ For a detailed discussion of the methodology with which we assembled this databa
 ### Arguments (<a href="https://github.com/BenjaminKay/MishnaBase/blob/main/arguments.csv">arguments.csv</a>) Data Dictionary
 
 
-| Field                | Description                                                                                                                                                                                                                                             |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SeqID                | Unique argument ID.                                                                                                                                                                                                                                     |
-| Location             | Combination of chapter and line number(s) within that chapter   where the dispute occurs.                                                                                                                                                               |
-| EffectiveRows        | The number of disputes contained within the argument. All   rabbis involved in a dispute are paired up with all possible other rabbis who   are involved in the dispute but take a different position.                                                  |
-| tab                  | The Hebrew name (and number of order) of the 63 masechtot in   which the argument is appears.                                                                                                                                                           |
-| tabnum               | Which of the 63 masechtot / books of the Talmud where the   argument appears in.                                                                                                                                                                        |
-| Seder_Hebrew         | Name of seder of the Talmud in which the argument appears,   written in Hebrew.                                                                                                                                                                         |
-| Seder_Name           | Name of seder of the Talmud in which the argument appears,   Hebrew name in English transliteration.                                                                                                                                                    |
-| Seder_Number         | Which of the six seders of the Talmud the argument appears in.                                                                                                                                                                                          |
-| Seder_Translate      | English translation of which of the six seders of the Talmud   the argument appears in.                                                                                                                                                                 |
-| Tractate_Name_Hebrew | Which of the 63 masechtot / books of the Talmud where the   argument appears in, name in Hebrew.                                                                                                                                                        |
-| Chapter              | Which chapter number of the masechtot where the argument   appears.                                                                                                                                                                                     |
-| Ith_chapter_in_seder | Which chapter number of the seder where the argument appears.                                                                                                                                                                                           |
-| Disputant_N          | The rabbi(s) offering the nth position in the argument.                                                                                                                                                                                                 |
-| Result_N             | Relative argument positions like Chumra 1.0 / Kula 0.0 (higher   number is stricter), BHB 1.0 / 0.0, Chayav 1.0 / Patur 0.0, and a few less   common topics have separate scores.                                                                       |
-| Score_N              | Disputant(s) N wins the argument according to Maimonides (1)   or loses (0).                                                                                                                                                                            |
-| Strict_N             | Are disputant(s) N stricter (1 if yes, 0 if no or not a   strictness argument).                                                                                                                                                                         |
-| Money_N              | Does disputant(s) N say they owe money (1 if yes, 0 if no or   not a money owing argument).                                                                                                                                                             |
-| Owe_N                | Does disputant(s) N say they owe (1 if yes, 0 if no or not a   owe argument).                                                                                                                                                                           |
-| Winner               | Which disputant(s), by name, won the argument according to   Maimonides.                                                                                                                                                                                |
-| Comment              | Miscellaneous notes on the dispute not fitting into other variables.                                                                                                                                                                                  |
-| IsCopy               | Is this the second or later appearance of a dispute in the   Mishnah? Always false because duplicate arguments are now filtered out. First   appearance only.                                                                                           |
-| keep                 | Argument meets data quality checks (database only contains   values where this is TRUE).                                                                                                                                                                |
-| NumDisp              | Number of distinct disputant positions contained within this   argument. This is not the combinations of disputes or a count of all possible   combinations of disputants. Also see field EffectiveRows.                                                |
-| AltStrictQuestion    | Is this a question about strictness (1 if yes, 0 if no)?                                                                                                                                                                                                |
-| OweQuestion          | Is this a question about owing (1 if yes, 0 if no)?                                                                                                                                                                                                     |
-| MoneyQuestion        | Is this a question about owing money (1 if yes, 0 if no)?                                                                                                                                                                                               |
-| Owe_Sum              | Number of argument positions taking an owe position. Either 0   (not a owing argument) or 1 (an owing argument).                                                                                                                                        |
-| Strict_Sum           | Number of argument positions taking the strictest position.   Generally 0 (not a strictness argument) or 1 (one position is strictest), but   it can be more than 1 if there is a multi-way argument and more than one Tana   takes the strictest view. |
-| Money_Sum            | Number of argument positions taking an money owing position.   Generally 0 (not a money owing argument) or 1 (a money owing argument), but   it can be more than 1 if there is a multi-way argument and more than one Tana   takes the strictest view.  |
-
+| Field                | Description                                                                                                   |
+|----------------------|---------------------------------------------------------------------------------------------------------------|
+| SeqID                | Unique argument ID.                                                                                           |
+| Location             | Combination of chapter and line number(s) within that chapter where the dispute occurs.                       |
+| EffectiveRows        | The number of disputes contained within the argument. All rabbis involved in a dispute are paired up with all possible other rabbis who   are involved in the dispute but take a different position.|
+| tab                  | The Hebrew name (and number of order) of the 63 masechtot in which the argument is appears.|
+| tabnum               | Which of the 63 masechtot / books of the Talmud where the argument appears in.                                |
+| Seder_Hebrew         | Name of seder of the Talmud in which the argument appears, written in Hebrew.                                 |
+| Seder_Name           | Name of seder of the Talmud in which the argument appears, Hebrew name in English transliteration.            |
+| Seder_Number         | Which of the six seders of the Talmud the argument appears in.                                                |
+| Seder_Translate      | English translation of which of the six seders of the Talmud the argument appears in.                         |
+| Tractate_Name_Hebrew | Which of the 63 masechtot / books of the Talmud where the argument appears in, name in Hebrew.                |
+| Chapter              | Which chapter number of the masechtot where the argument appears.                                             |
+| Ith_chapter_in_seder | Which chapter number of the seder where the argument appears.                                                 |
+| Disputant_N          | The rabbi(s) offering the nth position in the argument.                                                       |
+| Result_N             | Relative argument positions like Chumra 1.0 / Kula 0.0 (higher   number is stricter), BHB 1.0 / 0.0, Chayav 1.0 / Patur 0.0, and a few less common topics have separate scores.|
+| Score_N              | Disputant(s) N wins the argument according to Maimonides (1)   or loses (0).                                  |
+| Strict_N             | Are disputant(s) N stricter (1 if yes, 0 if no or not a   strictness argument).                               |
+| Money_N              | Does disputant(s) N say they owe money (1 if yes, 0 if no or not a money owing argument).                     |
+| Owe_N                | Does disputant(s) N say they owe (1 if yes, 0 if no or not a owe argument).                                   |
+| Winner               | Which disputant(s), by name, won the argument according to   Maimonides.                                      |
+| Comment              | Miscellaneous notes on the dispute not fitting into other variables.                                          |
+| IsCopy               | Is this the second or later appearance of a dispute in the Mishnah? Always false because duplicate arguments are now filtered out. First appearance only.|
+| keep                 | Argument meets data quality checks (database only contains values where this is TRUE).                        |
+| NumDisp              | Number of distinct disputant positions contained within this   argument. This is not the combinations of disputes or a count of all possible   combinations of disputants. Also see field EffectiveRows.|
+| AltStrictQuestion    | Is this a question about strictness (1 if yes, 0 if no)?                                                      |
+| OweQuestion          | Is this a question about owing (1 if yes, 0 if no)?                                                           |
+| MoneyQuestion        | Is this a question about owing money (1 if yes, 0 if no)?                                                     |
+| Owe_Sum              | Number of argument positions taking an owe position. Either 0 (not a owing argument) or 1 (an owing argument).|
+| Strict_Sum           | Number of argument positions taking the strictest position. Generally 0 (not a strictness argument) or 1 (one position is strictest), but it can be more than 1 if there is a multi-way argument and more than one Tana takes the strictest view. |
+| Money_Sum            | Number of argument positions taking an money owing position. Generally 0 (not a money owing argument) or 1 (a money owing argument), but it can be more than 1 if there is a multi-way argument and more than one Tana takes the strictest view.  |
 Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Generator</a>
 
 
@@ -84,6 +83,7 @@ Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Ge
 |Owe_Result_Score_N     | Numerical portion of Result_N but only for 'Owe' related arguments.|
 |Money_Result_Score_N   | Numerical portion of Result_N but only for 'Money' related arguments.|
 |Strict_Result_Score_N  | Numerical portion of Result_N but only for 'Strictness' related arguments. See AltStrict_N definition for using this number.|
+
 
 Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Generator</a>
 
