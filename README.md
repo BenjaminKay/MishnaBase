@@ -16,8 +16,8 @@ For a detailed discussion of the methodology with which we assembled this databa
 ## DKey Files
 ### This repository includes a number of files including:
 
-|File Name|Description| 
-|__|__|
+|File Name |Description | 
+|---|---|
 |Arguments.csv |  Argument level data. A topic in the talmud where at least two Tannaim disagree on a topic. An argument contains one or more disputes.|
 |Disputes.csv |  Dispute level data. A dispute is a disagreement between exactly two Tannaim. A dispute is associated with exactly one argument.|
 |Top30LinkMatrixWTies_CullFALSE.csv | Dispute relations between top 30 Tannaim by disputes. |
