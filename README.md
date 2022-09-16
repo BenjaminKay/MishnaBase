@@ -66,6 +66,7 @@ Created with <a href="https://www.tablesgenerator.com/markdown_tables">Tables Ge
 
 | Field | Description |
 |---|---|
+| SeqID                | Unique argument ID.     
 | DisputeID | A unique dispute ID. A single argument can contain multiple disputes. |
 | Location | Combination of chapter and line number(s) within that chapter   where the dispute occurs.  |
 | EffectiveRows | The number of disputes contained within the argument. All rabbis involved in a dispute are paired up with all possible other rabbis who are involved in the dispute but take a different position. |
