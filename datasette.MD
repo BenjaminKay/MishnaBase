@@ -1,4 +1,6 @@
-# The following uses [Datasette.io](datasette.io), a web hosted database service, to demonstrate the power of [MishnaBase](https://github.com/BenjaminKay/MishnaBase/).
+# Interactive online tools for exploring MishnahBase
+
+## The following links use [Datasette.io](datasette.io), a web hosted database service, to demonstrate the power of [MishnaBase](https://github.com/BenjaminKay/MishnaBase/).
 
 [Load the Data Into Datasette](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30LinkMatrixWTies_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30PrettyTableUnique_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30StrictWinLinkMatrix_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30WinLinkMatrix_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2Farguments.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2Fdisputes.csv#/data).
 
