@@ -77,7 +77,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
   63,  77,1:7, 1,ביכורים11,11, זרעים,Zeraim,1,Seeds,בכורים, 1,,11,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,1,0,Tanna Kama,BHB 1.0,1,NA, 0, 1,BHB 0.0,0,NA, 1, 0,NA,1.0, 1,1.0,NA,0.0, 0,0.0
   64,  78,1:10, 1,ביכורים11,11, זרעים,Zeraim,1,Seeds,בכורים, 1,,11,Tanna Kama,NA,NA,NA,Rabbi Yossi Haglili,NA,NA,NA,1,1,0,Tanna Kama,BHB 0.0,1,NA, 1, 0,BHB 1.0,0,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
   65,  79,1:11, 1,ביכורים11,11, זרעים,Zeraim,1,Seeds,בכורים, 1,,11,Tanna Kama,NA,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-  66,  80,1:2, 1:11, 1,ביכורים11,11, זרעים,Zeraim,1,Seeds,בכורים, 1,,11,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,1,0,Tanna Kama,BHB 1.0,1,NA, 0, 1,BHB 0.0,0,NA, 1, 0,NA,1.0, 1,1.0,NA,0.0, 0,0.0
+  66,  80,1:2; 1:11, 1,ביכורים11,11, זרעים,Zeraim,1,Seeds,בכורים, 1,,11,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,1,0,Tanna Kama,BHB 1.0,1,NA, 0, 1,BHB 0.0,0,NA, 1, 0,NA,1.0, 1,1.0,NA,0.0, 0,0.0
   67,  81,2:2, 1,ביכורים11,11, זרעים,Zeraim,1,Seeds,בכורים, 2,,11,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
   68,  82,2:2, 1,ביכורים11,11, זרעים,Zeraim,1,Seeds,בכורים, 2,,11,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
   69,  83,2:2, 1,ביכורים11,11, זרעים,Zeraim,1,Seeds,בכורים, 2,,11,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -129,7 +129,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  110, 129,6:8, 1,שבת12,12,מועד,Moed,2,Festival,שבת, 6,, 1,Rabbi Meir,מאיר,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Yossi,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  111, 130,6:10, 1,שבת12,12,מועד,Moed,2,Festival,שבת, 6,, 1,Rabbi Yossi,NA,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Yossi,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  112, 131,7:4, 1,שבת12,12,מועד,Moed,2,Festival,שבת, 7,, 1,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 113, 132,7:3, 8:1, 1,שבת12,12,מועד,Moed,2,Festival,שבת, 8,, 1,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+ 113, 132,7:3; 8:1, 1,שבת12,12,מועד,Moed,2,Festival,שבת, 8,, 1,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  114, 133,8:1, 1,שבת12,12,מועד,Moed,2,Festival,שבת, 8,, 1,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  115, 134,8:2, 1,שבת12,12,מועד,Moed,2,Festival,שבת, 8,, 1,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  116, 135,8:4, 1,שבת12,12,מועד,Moed,2,Festival,שבת, 8,, 1,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -208,9 +208,9 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  183, 208,1:10, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 1,, 2,Rabbi Yossi ben Yehuda,NA,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  184, 209,2:1, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Yehuda,יהודה,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Yehuda,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  185, 210,2:1, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Yehuda,יהודה,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Yehuda,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 186, 211,2:2-3, 2:6, 5,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 0.5,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
- 186, 212,2:2-3, 2:6, 5,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Tanna Kama,NA,NA,NA,Rabbi Elai,אלעאי,NA,NA,1,0,0,Tanna Kama,Chumra 0.5,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,0.5,NA,NA, 0,0.0
- 186, 213,2:2-3, 2:6, 5,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Yehuda,יהודה,NA,NA,Rabbi Elai,אלעאי,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+ 186, 211,2:2-3; 2:6, 5,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 0.5,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
+ 186, 212,2:2-3; 2:6, 5,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Tanna Kama,NA,NA,NA,Rabbi Elai,אלעאי,NA,NA,1,0,0,Tanna Kama,Chumra 0.5,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,0.5,NA,NA, 0,0.0
+ 186, 213,2:2-3; 2:6, 5,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Yehuda,יהודה,NA,NA,Rabbi Elai,אלעאי,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  187, 214,2:4, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Yehuda,יהודה,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  188, 215,2:4, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Yehuda ben Bava,יהודה בן בבא,NA,NA,1,0,0,Rabbi Yehuda ben Bava,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  189, 216,2:5, 3,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Yehuda ben Bava,יהודה בן בבא,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yehuda ben Bava,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
@@ -218,7 +218,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  189, 218,2:5, 3,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Yehuda,יהודה,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Akiva,Chumra 0.5,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,0.5,NA,NA, 0,0.0
  190, 219,2:5, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Yehuda ben Bava,יהודה בן בבא,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Yehuda ben Bava,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  191, 220,2:5, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Yossi,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 192, 221,2:6, 6:3, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Elai,אלעאי,NA,NA,Stam,NA,NA,NA,1,0,0,Stam,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+ 192, 221,2:6; 6:3, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Rabbi Elai,אלעאי,NA,NA,Stam,NA,NA,NA,1,0,0,Stam,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  193, 222,3:1, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 3,, 2,Tanna Kama,NA,NA,NA,Sumchus,סומכוס,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  194, 223,3:1, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 3,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  195, 224,3:3, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 3,, 2,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -254,7 +254,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  220, 254,6:9, 3,עירובין13,13,מועד,Moed,2,Festival,עירובין, 6,, 2,Tanna Kama,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Tanna Kama,Chumra 0.5,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
  220, 255,6:9, 3,עירובין13,13,מועד,Moed,2,Festival,עירובין, 6,, 2,Tanna Kama,NA,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Tanna Kama,Chumra 0.5,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,0.5,NA,NA, 0,0.0
  220, 256,6:9, 3,עירובין13,13,מועד,Moed,2,Festival,עירובין, 6,, 2,Rabbi Akiva,עקיבא,עקיבה,NA,Chachamim,חכמים,NA,NA,1,0,0,Rabbi Akiva,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 221, 257,7:7, 7:9, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 7,, 2,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+ 221, 257,7:7; 7:9, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 7,, 2,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  222, 258,7:10, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין, 7,, 2,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Yehoshua,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  223, 259,7:11, 3,עירובין13,13,מועד,Moed,2,Festival,עירובין, 7,, 2,Rabbi Eliezer,אליעזר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Rabbi Eliezer,Kula 0.0,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  223, 260,7:11, 3,עירובין13,13,מועד,Moed,2,Festival,עירובין, 7,, 2,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yehuda,Kula 0.0,0,NA,NA, 0,Chumra 0.5,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
@@ -295,12 +295,12 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  246, 295,10:12, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין,10,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  247, 296,10:15, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין,10,, 2,Rabbi Yochanan ben Broka,יוחנן בן ברוקה,NA,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,0,Rabbi Yehuda,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  248, 297,10:15, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין,10,, 2,Ben Nannas,בן ננס,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,0,0,0,Rabbi Akiva,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
- 249, 298,10:13, 10:15, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין,10,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+ 249, 298,10:13; 10:15, 1,עירובין13,13,מועד,Moed,2,Festival,עירובין,10,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  250, 299,1:1, 1,פסחים14,14,מועד,Moed,2,Festival,פסחים, 1,, 3,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  251, 300,1:3, 1,פסחים14,14,מועד,Moed,2,Festival,פסחים, 1,, 3,Rabbi Yehuda,יהודה,NA,NA,Chachamim,חכמים,NA,NA,0,0,0,Chachamim,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
- 252, 301,1:4-5, 2:1, 3,פסחים14,14,מועד,Moed,2,Festival,פסחים, 1,, 3,Rabbi Meir,מאיר,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yehuda,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 252, 302,1:4-5, 2:1, 3,פסחים14,14,מועד,Moed,2,Festival,פסחים, 1,, 3,Rabbi Meir,מאיר,NA,NA,Rabbi Gamliel,גמליאל,NA,NA,1,0,0,Rabbi Meir,Kula 0.0,0,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
- 252, 303,1:4-5, 2:1, 3,פסחים14,14,מועד,Moed,2,Festival,פסחים, 1,, 3,Rabbi Yehuda,יהודה,NA,NA,Rabbi Gamliel,גמליאל,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,1,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
+ 252, 301,1:4-5; 2:1, 3,פסחים14,14,מועד,Moed,2,Festival,פסחים, 1,, 3,Rabbi Meir,מאיר,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yehuda,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+ 252, 302,1:4-5; 2:1, 3,פסחים14,14,מועד,Moed,2,Festival,פסחים, 1,, 3,Rabbi Meir,מאיר,NA,NA,Rabbi Gamliel,גמליאל,NA,NA,1,0,0,Rabbi Meir,Kula 0.0,0,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
+ 252, 303,1:4-5; 2:1, 3,פסחים14,14,מועד,Moed,2,Festival,פסחים, 1,, 3,Rabbi Yehuda,יהודה,NA,NA,Rabbi Gamliel,גמליאל,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,1,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
  253, 304,1:7, 1,פסחים14,14,מועד,Moed,2,Festival,פסחים, 1,, 3,Rabbi Meir,מאיר,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Yossi,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  254, 305,1:7, 1,פסחים14,14,מועד,Moed,2,Festival,פסחים, 1,, 3,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Eliezer,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  255, 306,2:1, 1,פסחים14,14,מועד,Moed,2,Festival,פסחים, 2,, 3,Rabbi Yehuda,יהודה,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -353,7 +353,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  288, 353,10:9, 1,פסחים14,14,מועד,Moed,2,Festival,פסחים,10,, 3,Rabbi Yishmael,ישמעאל,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Akiva,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  289, 354,1:6, 1,שקלים15,15,מועד,Moed,2,Festival,שקלים, 1,, 4,Tanna Kama,NA,NA,NA,Rabbi Meir,מאיר,NA,NA,1,1,0,Tanna Kama,BHB 1.0,1,NA, 0, 1,BHB 0.0,0,NA, 1, 0,NA,1.0, 1,1.0,NA,0.0, 0,0.0
  290, 355,1:7, 1,שקלים15,15,מועד,Moed,2,Festival,שקלים, 1,, 4,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,1,0,Chachamim,BHB 0.0,0,NA, 1, 0,BHB 1.0,1,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
- 291, 356,2:3, 2:5, 2,שקלים15,15,מועד,Moed,2,Festival,שקלים, 2,, 4,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,1,0,Beit Hillel,BHB 0.0,0,NA, 1, 0,BHB 1.0,1,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
+ 291, 356,2:3; 2:5, 2,שקלים15,15,מועד,Moed,2,Festival,שקלים, 2,, 4,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,1,0,Beit Hillel,BHB 0.0,0,NA, 1, 0,BHB 1.0,1,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
  292, 357,2:4, 1,שקלים15,15,מועד,Moed,2,Festival,שקלים, 2,, 4,Rabbi Shimon,שמעון,NA,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,0,Rabbi Shimon,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  293, 358,2:5, 3,שקלים15,15,מועד,Moed,2,Festival,שקלים, 2,, 4,Tanna Kama,NA,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  293, 359,2:5, 3,שקלים15,15,מועד,Moed,2,Festival,שקלים, 2,, 4,Tanna Kama,NA,NA,NA,Rabbi Natan,נתן,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
@@ -430,9 +430,9 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  349, 430,2:7, 1,סוכה17,17,מועד,Moed,2,Festival,סוכה, 2,, 6,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Shamai,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  350, 431,2:8, 1,סוכה17,17,מועד,Moed,2,Festival,סוכה, 2,, 6,Tanna Kama,NA,NA,NA,Shamai,שמאי,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  351, 432,3:1, 1,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 352, 433,3:2, 3:4, 5,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Stam,NA,NA,NA,Rabbi Tarfon,טרפון,NA,NA,1,0,0,Rabbi Tarfon,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 352, 434,3:2, 3:4, 5,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Stam,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Stam,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 352, 435,3:2, 3:4, 5,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Rabbi Tarfon,טרפון,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Tarfon,Kula 0.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
+ 352, 433,3:2; 3:4, 5,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Stam,NA,NA,NA,Rabbi Tarfon,טרפון,NA,NA,1,0,0,Rabbi Tarfon,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+ 352, 434,3:2; 3:4, 5,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Stam,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Stam,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+ 352, 435,3:2; 3:4, 5,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Rabbi Tarfon,טרפון,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Tarfon,Kula 0.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
  353, 436,3:5, 1,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  354, 437,3:6, 1,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Rabbi Meir,מאיר,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yehuda,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  355, 438,3:7, 1,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Rabbi Meir,מאיר,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yehuda,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -661,7 +661,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  543, 661,6:6, 1,יבמות24,24,נשים,Naschim,3,Women,יבמות, 6,, 1,Tanna Kama,NA,NA,NA,Rabbi Yochanan ben Broka,יוחנן בן ברוקה,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  544, 662,7:3, 1,יבמות24,24,נשים,Naschim,3,Women,יבמות, 7,, 1,Rabbi Yossi,NA,NA,NA,Stam,NA,NA,NA,1,0,0,Stam,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  545, 663,8:3, 1,יבמות24,24,נשים,Naschim,3,Women,יבמות, 8,, 1,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 546, 664,8:4, 8:6, 4,יבמות24,24,נשים,Naschim,3,Women,יבמות, 8,, 1,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Eliezer,אליעזר,NA,NA,0,0,0,Rabbi Akiva,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ 546, 664,8:4; 8:6, 4,יבמות24,24,נשים,Naschim,3,Women,יבמות, 8,, 1,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Eliezer,אליעזר,NA,NA,0,0,0,Rabbi Akiva,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  548, 665,10:1, 3,יבמות24,24,נשים,Naschim,3,Women,יבמות,10,, 1,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,0,0,1,Tanna Kama,Patur 0.0,1, 0,NA,NA,Chayav 0.5,0, 1,NA,NA,0.0,NA,NA,NA,0.5,NA,NA,NA
  548, 666,10:1, 3,יבמות24,24,נשים,Naschim,3,Women,יבמות,10,, 1,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,0,0,1,Tanna Kama,Patur 0.0,1, 0,NA,NA,Chayav 1.0,0, 1,NA,NA,0.0,NA,NA,NA,1.0,NA,NA,NA
  548, 667,10:1, 3,יבמות24,24,נשים,Naschim,3,Women,יבמות,10,, 1,Rabbi Yossi,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,0,0,1,Rabbi Yossi,Chayav 0.5,0, 0,NA,NA,Chayav 1.0,0, 1,NA,NA,0.5,NA,NA,NA,1.0,NA,NA,NA
@@ -691,9 +691,9 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  570, 691,15:1, 1,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  571, 692,15:2, 1,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Beit Hillel,בית הלל,בית הילל,NA,Beit Shamai,בית שמאי,NA,NA,1,0,0,Beit Shamai,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  572, 693,15:3, 1,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,0,0,1,Beit Shamai,Chayav 1.0,1, 1,NA,NA,Patur 0.0,0, 0,NA,NA,1.0,NA,NA,NA,0.0,NA,NA,NA
- 573, 694,15:4, 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Gamliel,גמליאל,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Rabbi Gamliel,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 573, 695,15:4, 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Gamliel,גמליאל,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Gamliel,Kula 0.0,1,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
- 573, 696,15:4, 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Eliezer,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
+ 573, 694,15:4; 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Gamliel,גמליאל,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Rabbi Gamliel,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+ 573, 695,15:4; 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Gamliel,גמליאל,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Gamliel,Kula 0.0,1,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
+ 573, 696,15:4; 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Eliezer,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
  574, 697,15:5, 2,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Meir,מאיר,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  575, 698,15:6, 1,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Tarfon,טרפון,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Tarfon,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  576, 699,15:7, 1,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Tarfon,טרפון,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Tarfon,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -713,7 +713,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  589, 713,2:7-8, 5,כתובות25,25,נשים,Naschim,3,Women,כתובות, 2,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon ben Gamliel,שמעון בן גמליאל,NA,NA,1,0,0,Rabbi Shimon ben Gamliel,Chumra 0.5,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,0.5,NA,NA, 0,0.0
  589, 714,2:7-8, 5,כתובות25,25,נשים,Naschim,3,Women,כתובות, 2,, 2,Rabbi Yehuda,יהודה,NA,NA,Rabbi Shimon ben Gamliel,שמעון בן גמליאל,NA,NA,1,0,0,Rabbi Shimon ben Gamliel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  590, 715,3:2, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 3,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,1,Tanna Kama,Patur 0.0,1, 0,NA,NA,Chayav 1.0,0, 1,NA,NA,0.0,NA,NA,NA,1.0,NA,NA,NA
- 591, 716,3:3, 3:6, 2,כתובות25,25,נשים,Naschim,3,Women,כתובות, 3,, 2,Rabbi Yossi Haglili,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,0,0,1,Rabbi Akiva,Patur 0.0,0, 0,NA,NA,Chayav 1.0,1, 1,NA,NA,0.0,NA,NA,NA,1.0,NA,NA,NA
+ 591, 716,3:3; 3:6, 2,כתובות25,25,נשים,Naschim,3,Women,כתובות, 3,, 2,Rabbi Yossi Haglili,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,0,0,1,Rabbi Akiva,Patur 0.0,0, 0,NA,NA,Chayav 1.0,1, 1,NA,NA,0.0,NA,NA,NA,1.0,NA,NA,NA
  592, 717,4:1, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 4,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  593, 718,4:2, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 4,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  594, 719,4:4, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 4,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,1,Rabbi Yehuda,Patur 0.0,0, 0,NA,NA,Chayav 1.0,1, 1,NA,NA,0.0,NA,NA,NA,1.0,NA,NA,NA
@@ -730,7 +730,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  603, 730,5:7, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 5,, 2,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,0,0,0,Tanna Kama,,0,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  604, 731,5:7, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 5,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,1,Tanna Kama,Chayav 1.0,1, 1,NA,NA,Patur 0.0,0, 0,NA,NA,1.0,NA,NA,NA,0.0,NA,NA,NA
  605, 732,6:1, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 6,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,0,Rabbi Yehuda,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
- 606, 733,6:3, 6:4, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 6,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon ben Gamliel,שמעון בן גמליאל,NA,NA,0,0,0,Rabbi Shimon ben Gamliel,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ 606, 733,6:3; 6:4, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 6,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon ben Gamliel,שמעון בן גמליאל,NA,NA,0,0,0,Rabbi Shimon ben Gamliel,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  607, 734,6:6, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 6,, 2,Rabbi Yehuda,יהודה,NA,NA,Chachamim,חכמים,NA,NA,0,0,0,Chachamim,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  608, 735,6:7, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 6,, 2,Rabbi Meir,מאיר,NA,NA,Rabbi Yossi,NA,NA,NA,0,0,0,Rabbi Meir,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  609, 736,7:1, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 7,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,1,Tanna Kama,Chayav 1.0,1, 1,NA,NA,Patur 0.0,0, 0,NA,NA,1.0,NA,NA,NA,0.0,NA,NA,NA
@@ -753,9 +753,9 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  624, 753,9:1, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 9,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon ben Gamliel,שמעון בן גמליאל,NA,NA,0,0,0,Rabbi Shimon ben Gamliel,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  625, 754,9:2, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 9,, 2,Rabbi Tarfon,טרפון,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,0,0,0,Rabbi Tarfon,,0,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  626, 755,9:3, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 9,, 2,Rabbi Tarfon,טרפון,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,0,0,0,Rabbi Tarfon,,0,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
- 627, 756,9:4, 9:8, 3,כתובות25,25,נשים,Naschim,3,Women,כתובות, 9,, 2,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
- 627, 757,9:4, 9:8, 3,כתובות25,25,נשים,Naschim,3,Women,כתובות, 9,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
- 627, 758,9:4, 9:8, 3,כתובות25,25,נשים,Naschim,3,Women,כתובות, 9,, 2,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Rabbi Eliezer,,0,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ 627, 756,9:4; 9:8, 3,כתובות25,25,נשים,Naschim,3,Women,כתובות, 9,, 2,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ 627, 757,9:4; 9:8, 3,כתובות25,25,נשים,Naschim,3,Women,כתובות, 9,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ 627, 758,9:4; 9:8, 3,כתובות25,25,נשים,Naschim,3,Women,כתובות, 9,, 2,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Rabbi Eliezer,,0,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  628, 759,9:9, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות, 9,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon ben Gamliel,שמעון בן גמליאל,NA,NA,0,0,1,Rabbi Shimon ben Gamliel,Patur 0.0,0, 0,NA,NA,Chayav 1.0,1, 1,NA,NA,0.0,NA,NA,NA,1.0,NA,NA,NA
  629, 760,10:3, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות,10,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Rabbi Shimon,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  630, 761,10:5, 1,כתובות25,25,נשים,Naschim,3,Women,כתובות,10,, 2,Tanna Kama,NA,NA,NA,Ben Nannas,בן ננס,NA,NA,0,0,0,Ben Nannas,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -811,8 +811,8 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  680, 815,7:4, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים, 7,, 3,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  681, 816,7:5, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים, 7,, 3,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  682, 817,8:2, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים, 8,, 3,Rabbi Meir,מאיר,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Meir,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 683, 818,8:2-3, 8:5, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים, 8,, 3,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 684, 819,8:3, 8:6, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים, 8,, 3,Tanna Kama,NA,NA,NA,Rabbi Yossi ben Yehuda,NA,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+ 683, 818,8:2-3; 8:5, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים, 8,, 3,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+ 684, 819,8:3; 8:6, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים, 8,, 3,Tanna Kama,NA,NA,NA,Rabbi Yossi ben Yehuda,NA,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  685, 820,8:5, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים, 8,, 3,Tanna Kama,NA,NA,NA,Rabbi Shimon ben Gamliel,שמעון בן גמליאל,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  686, 821,8:5, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים, 8,, 3,Rabbi Meir,מאיר,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  687, 822,8:7, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים, 8,, 3,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -824,7 +824,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  692, 828,10:6, 3,נדרים26,26,נשים,Naschim,3,Women,נדרים,10,, 3,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Akiva,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  692, 829,10:6, 3,נדרים26,26,נשים,Naschim,3,Women,נדרים,10,, 3,Rabbi Yehoshua,יהושע,יהושוע,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Akiva,Chumra 0.5,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
  693, 830,10:7, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים,10,, 3,Rabbi Eliezer,אליעזר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 694, 831,11:1, 2, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים,11,, 3,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+ 694, 831,11:1; 2, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים,11,, 3,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  695, 832,11:4, 2,נדרים26,26,נשים,Naschim,3,Women,נדרים,11,, 3,Tanna Kama,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  696, 833,11:4, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים,11,, 3,Tanna Kama,NA,NA,NA,Rabbi Yochanan ben Nuri,יוחנן בן נורי,NA,NA,0,0,0,Tanna Kama,,0,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  697, 834,11:7, 1,נדרים26,26,נשים,Naschim,3,Women,נדרים,11,, 3,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -838,7 +838,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  706, 843,2:6, 1,נזיר27,27,נשים,Naschim,3,Women,נזיר, 2,, 4,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  707, 844,2:7-8, 1,נזיר27,27,נשים,Naschim,3,Women,נזיר, 2,, 4,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  708, 845,3:3, 1,נזיר27,27,נשים,Naschim,3,Women,נזיר, 3,, 4,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 709, 846,3:4, 3:6, 2,נזיר27,27,נשים,Naschim,3,Women,נזיר, 3,, 4,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+ 709, 846,3:4; 3:6, 2,נזיר27,27,נשים,Naschim,3,Women,נזיר, 3,, 4,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  710, 847,3:4, 1,נזיר27,27,נשים,Naschim,3,Women,נזיר, 3,, 4,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  711, 848,3:5, 1,נזיר27,27,נשים,Naschim,3,Women,נזיר, 3,, 4,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  712, 849,3:6, 1,נזיר27,27,נשים,Naschim,3,Women,נזיר, 3,, 4,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -882,9 +882,9 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  745, 887,2:3, 3,סוטה28,28,נשים,Naschim,3,Women,סוטה, 2,, 5,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 0.5,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,0.5,NA,NA, 0,0.0
  745, 888,2:3, 3,סוטה28,28,נשים,Naschim,3,Women,סוטה, 2,, 5,Rabbi Yossi,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yossi,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  746, 889,2:5, 1,סוטה28,28,נשים,Naschim,3,Women,סוטה, 2,, 5,Tanna Kama,NA,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Meir,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 747, 890,3:2, 3:4, 2,סוטה28,28,נשים,Naschim,3,Women,סוטה, 3,, 5,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ 747, 890,3:2; 3:4, 2,סוטה28,28,נשים,Naschim,3,Women,סוטה, 3,, 5,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  748, 891,3:4, 2,סוטה28,28,נשים,Naschim,3,Women,סוטה, 3,, 5,Shimon ben Azai,בן עזאי,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Rabbi Eliezer,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 749, 892,3:4, 3:5, 2,סוטה28,28,נשים,Naschim,3,Women,סוטה, 3,, 5,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+ 749, 892,3:4; 3:5, 2,סוטה28,28,נשים,Naschim,3,Women,סוטה, 3,, 5,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  750, 893,4:2, 1,סוטה28,28,נשים,Naschim,3,Women,סוטה, 4,, 5,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,0,0,0,Beit Hillel,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  751, 894,4:3, 1,סוטה28,28,נשים,Naschim,3,Women,סוטה, 4,, 5,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,0,0,0,Chachamim,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  752, 895,4:3, 1,סוטה28,28,נשים,Naschim,3,Women,סוטה, 4,, 5,Tanna Kama,NA,NA,NA,Rabbi Elazar,אלעזר,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1455,7 +1455,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1201,1467,2:3, 1,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Rabbi Akiva,עקיבא,עקיבה,NA,Stam,NA,NA,NA,0,0,0,Rabbi Akiva,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1202,1468,2:4, 1,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1203,1469,2:4, 1,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-1204,1470,2:4, 2:6, 4,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1204,1470,2:4; 2:6, 4,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1205,1471,2:5, 1,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Rabbi Yishmael,ישמעאל,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,0,0,0,Rabbi Yishmael,,0,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1206,1472,2:7, 1,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1207,1473,3:1, 3,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 3,, 8,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -1531,7 +1531,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1247,1543,3:7, 3,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 3,, 4,Rabbi Meir,מאיר,NA,NA,Rabbi Yossi ben Hachotef,NA,NA,NA,1,0,0,Rabbi Meir,Chumra 0.5,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
 1248,1544,4:1, 1,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 4,, 4,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1249,1545,4:1, 1,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 4,, 4,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-1250,1546,4:2, 4:3, 1,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 4,, 4,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1250,1546,4:2; 4:3, 1,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 4,, 4,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1251,1547,4:5, 1,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 4,, 4,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1252,1548,4:7, 1,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 4,, 4,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1253,1549,4:8, 1,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 4,, 4,Tanna Kama,NA,NA,NA,Rabbi Eliezer ben Yakov,אליעזר בן יעקב,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -1680,7 +1680,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1374,1700,8:4, 1,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות, 8,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1375,1701,8:4, 1,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות, 8,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1376,1702,8:6, 1,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות, 8,, 2,Rebbe,NA,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-1378,1704,9:1, 9:5, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות, 9,, 2,Tanna Kama,NA,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+1378,1704,9:1; 9:5, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות, 9,, 2,Tanna Kama,NA,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1379,1705,9:2, 3,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות, 9,, 2,Tanna Kama,NA,NA,NA,Rabbi Elazar ben Tzadok,אלעזר בן צדוק,אלעזר ברבי צדוק,אלעזר בן רבי צדוק,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1379,1706,9:2, 3,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות, 9,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1379,1707,9:2, 3,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות, 9,, 2,Rabbi Elazar ben Tzadok,אלעזר בן צדוק,אלעזר ברבי צדוק,אלעזר בן רבי צדוק,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Elazar ben Tzadok,Kula 0.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
@@ -1705,9 +1705,9 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1394,1726,12:3, 1,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,12,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1395,1727,12:5, 1,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,12,, 2,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Tarfon,טרפון,NA,NA,0,0,0,Rabbi Tarfon,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1396,1728,13:1, 1,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-1397,1729,13:2, 6, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Rebbe,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+1397,1729,13:2; 6, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Rebbe,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1398,1730,13:5, 1,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Rebbe,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-1399,1731,13:6, 8, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Rebbe,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+1399,1731,13:6; 8, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Rebbe,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1400,1732,13:9, 1,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Rebbe,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1401,1733,13:9, 1,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Rebbe,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1402,1734,13:10, 1,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -1848,12 +1848,12 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1508,1869,8:10, 6,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 8,, 4,Rabbi Elazar,אלעזר,NA,NA,Rabbi Yochanan ben Broka,יוחנן בן ברוקה,NA,NA,0,0,1,Rabbi Elazar,Chayav 1.0,0, 1,NA,NA,Chayav 0.66,0, 0,NA,NA,1.0,NA,NA,NA,0.66,NA,NA,NA
 1509,1870,9:2, 1,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Tanna Kama,NA,NA,NA,Rabbi Meir,מאיר,NA,NA,1,1,0,Tanna Kama,BHB 0.0,1,NA, 1, 0,BHB 1.0,0,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
 1510,1871,9:4, 1,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Tanna Kama,NA,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,1,0,Tanna Kama,BHB 1.0,1,NA, 0, 1,BHB 0.0,0,NA, 1, 0,NA,1.0, 1,1.0,NA,0.0, 0,0.0
-1511,1872,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Shimon ben Azai,בן עזאי,NA,NA,1,0,0,Rabbi Akiva,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-1511,1873,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Elazar,אלעזר,NA,NA,1,0,0,Rabbi Akiva,Kula 0.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
-1511,1874,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Akiva,Kula 0.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
-1511,1875,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Shimon ben Azai,בן עזאי,NA,NA,Rabbi Elazar,אלעזר,NA,NA,1,0,0,Shimon ben Azai,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-1511,1876,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Shimon ben Azai,בן עזאי,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Shimon ben Azai,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-1511,1877,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Elazar,אלעזר,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Elazar,Kula 0.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
+1511,1872,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Shimon ben Azai,בן עזאי,NA,NA,1,0,0,Rabbi Akiva,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+1511,1873,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Elazar,אלעזר,NA,NA,1,0,0,Rabbi Akiva,Kula 0.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
+1511,1874,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Akiva,Kula 0.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
+1511,1875,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Shimon ben Azai,בן עזאי,NA,NA,Rabbi Elazar,אלעזר,NA,NA,1,0,0,Shimon ben Azai,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1511,1876,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Shimon ben Azai,בן עזאי,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Shimon ben Azai,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1511,1877,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Elazar,אלעזר,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Elazar,Kula 0.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
 1512,1878,9:7, 1,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Tanna Kama,NA,NA,NA,Rabbi Yossi ben Yehuda,NA,NA,NA,1,1,0,Tanna Kama,BHB 1.0,1,NA, 0, 1,BHB 0.0,0,NA, 1, 0,NA,1.0, 1,1.0,NA,0.0, 0,0.0
 1513,1879,9:8, 1,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Meir,מאיר,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1514,1880,1:2, 1,ערכין45,45,קדשים,Kodashim,5,Holy things,ערכין, 1,, 5,Rabbi Meir,מאיר,NA,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,0,Rabbi Meir,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1925,9 +1925,9 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1579,1951,4:2, 1,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 4,, 7,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Yossi,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1580,1952,4:3, 2,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 4,, 7,Rabbi Yishmael Shizuri,ישמעאל שזורי,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1581,1953,5:1, 1,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 5,, 7,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-1582,1954,5:2, 5:3, 3,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 5,, 7,Rabbi Akiva,עקיבא,עקיבה,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-1582,1955,5:2, 5:3, 3,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 5,, 7,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Tarfon,טרפון,NA,NA,1,0,0,Rabbi Akiva,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
-1582,1956,5:2, 5:3, 3,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 5,, 7,Chachamim,חכמים,NA,NA,Rabbi Tarfon,טרפון,NA,NA,1,0,0,Chachamim,Kula 0.0,1,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
+1582,1954,5:2; 5:3, 3,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 5,, 7,Rabbi Akiva,עקיבא,עקיבה,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1582,1955,5:2; 5:3, 3,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 5,, 7,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Tarfon,טרפון,NA,NA,1,0,0,Rabbi Akiva,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
+1582,1956,5:2; 5:3, 3,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 5,, 7,Chachamim,חכמים,NA,NA,Rabbi Tarfon,טרפון,NA,NA,1,0,0,Chachamim,Kula 0.0,1,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
 1583,1957,5:4, 5,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 5,, 7,Rabbi Yossi,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Yossi,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1583,1958,5:4, 5,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 5,, 7,Rabbi Yossi,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Yossi,Kula 0.0,1,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
 1583,1959,5:4, 5,כרתות47,47,קדשים,Kodashim,5,Holy things,כריתות, 5,, 7,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Akiva,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
@@ -2121,9 +2121,9 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1740,2148,11:8, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,11,, 1,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1741,2149,12:1, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,12,, 1,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1742,2150,12:2, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,12,, 1,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-1743,2151,12:3, 6, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,12,, 1,Rabbi Gamliel,גמליאל,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-1744,2152,12:4, 12:5, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,12,, 1,Tanna Kama,NA,NA,NA,Rabbi Tzadok,צדוק,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-1745,2153,12:4, 12:5, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,12,, 1,Rabbi Tzadok,צדוק,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1743,2151,12:3; 6, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,12,, 1,Rabbi Gamliel,גמליאל,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1744,2152,12:4; 12:5, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,12,, 1,Tanna Kama,NA,NA,NA,Rabbi Tzadok,צדוק,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+1745,2153,12:4; 12:5, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,12,, 1,Rabbi Tzadok,צדוק,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1746,2154,12:5, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,12,, 1,Rabbi Akiva,עקיבא,עקיבה,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1747,2155,12:5, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,12,, 1,Tanna Kama,NA,NA,NA,Rabbi Tzadok,צדוק,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1748,2156,12:6, 1,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,12,, 1,Rabbi Gamliel,גמליאל,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -2314,7 +2314,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1888,2345,5:2, 3,אוהלות53,53,טָהֳרוֹת,Tohoroth,6,Purities,אהלות, 5,, 2,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
 1888,2346,5:2, 3,אוהלות53,53,טָהֳרוֹת,Tohoroth,6,Purities,אהלות, 5,, 2,Beit Shamai,בית שמאי,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Beit Shamai,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1888,2347,5:2, 3,אוהלות53,53,טָהֳרוֹת,Tohoroth,6,Purities,אהלות, 5,, 2,Beit Hillel,בית הלל,בית הילל,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Beit Hillel,Chumra 0.5,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,0.5,NA,NA, 0,0.0
-1889,2348,5:3, 5:4, 1,אוהלות53,53,טָהֳרוֹת,Tohoroth,6,Purities,אהלות, 5,, 2,Beit Hillel,בית הלל,בית הילל,NA,Beit Shamai,בית שמאי,NA,NA,1,0,0,Beit Shamai,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+1889,2348,5:3; 5:4, 1,אוהלות53,53,טָהֳרוֹת,Tohoroth,6,Purities,אהלות, 5,, 2,Beit Hillel,בית הלל,בית הילל,NA,Beit Shamai,בית שמאי,NA,NA,1,0,0,Beit Shamai,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1890,2349,5:7, 1,אוהלות53,53,טָהֳרוֹת,Tohoroth,6,Purities,אהלות, 5,, 2,Rabbi Akiva,עקיבא,עקיבה,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1891,2350,6:1, 1,אוהלות53,53,טָהֳרוֹת,Tohoroth,6,Purities,אהלות, 6,, 2,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1892,2351,6:3, 1,אוהלות53,53,טָהֳרוֹת,Tohoroth,6,Purities,אהלות, 6,, 2,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -2388,12 +2388,12 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1951,2421,18:8, 1,אוהלות53,53,טָהֳרוֹת,Tohoroth,6,Purities,אהלות,18,, 2,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1953,2423,1:1, 1,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,0,0,0,Chachamim,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1954,2424,1:2, 1,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Rabbi Yishmael,ישמעאל,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,0,0,0,Rabbi Akiva,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1955,2425,1:1, 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Tanna Kama,NA,NA,NA,Rabbi Chanina Sgan Hacohanim,חנינא סגן הכהנים,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 0.33,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.33
-1955,2426,1:1, 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Tanna Kama,NA,NA,NA,Rabbi Dosa ben Harkinas,דוסא,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 0.66,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.66
-1955,2427,1:1, 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Tanna Kama,NA,NA,NA,Akavia ben Mahalalel,עקביא בן מהללאל,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-1955,2428,1:1, 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Rabbi Chanina Sgan Hacohanim,חנינא סגן הכהנים,NA,NA,Rabbi Dosa ben Harkinas,דוסא,NA,NA,1,0,0,Rabbi Chanina Sgan Hacohanim,Chumra 0.33,0,NA,NA, 0,Chumra 0.66,0,NA,NA, 1,NA,NA, 0,0.33,NA,NA, 1,0.66
-1955,2429,1:1, 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Rabbi Chanina Sgan Hacohanim,חנינא סגן הכהנים,NA,NA,Akavia ben Mahalalel,עקביא בן מהללאל,NA,NA,1,0,0,Rabbi Chanina Sgan Hacohanim,Chumra 0.33,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.33,NA,NA, 1,1.0
-1955,2430,1:1, 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Rabbi Dosa ben Harkinas,דוסא,NA,NA,Akavia ben Mahalalel,עקביא בן מהללאל,NA,NA,1,0,0,Rabbi Dosa ben Harkinas,Chumra 0.66,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.66,NA,NA, 1,1.0
+1955,2425,1:1; 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Tanna Kama,NA,NA,NA,Rabbi Chanina Sgan Hacohanim,חנינא סגן הכהנים,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 0.33,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.33
+1955,2426,1:1; 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Tanna Kama,NA,NA,NA,Rabbi Dosa ben Harkinas,דוסא,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 0.66,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.66
+1955,2427,1:1; 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Tanna Kama,NA,NA,NA,Akavia ben Mahalalel,עקביא בן מהללאל,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+1955,2428,1:1; 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Rabbi Chanina Sgan Hacohanim,חנינא סגן הכהנים,NA,NA,Rabbi Dosa ben Harkinas,דוסא,NA,NA,1,0,0,Rabbi Chanina Sgan Hacohanim,Chumra 0.33,0,NA,NA, 0,Chumra 0.66,0,NA,NA, 1,NA,NA, 0,0.33,NA,NA, 1,0.66
+1955,2429,1:1; 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Rabbi Chanina Sgan Hacohanim,חנינא סגן הכהנים,NA,NA,Akavia ben Mahalalel,עקביא בן מהללאל,NA,NA,1,0,0,Rabbi Chanina Sgan Hacohanim,Chumra 0.33,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.33,NA,NA, 1,1.0
+1955,2430,1:1; 1:4, 6,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Rabbi Dosa ben Harkinas,דוסא,NA,NA,Akavia ben Mahalalel,עקביא בן מהללאל,NA,NA,1,0,0,Rabbi Dosa ben Harkinas,Chumra 0.66,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.66,NA,NA, 1,1.0
 1956,2431,1:4, 1,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 1,, 3,Rabbi Chanina Sgan Hacohanim,חנינא סגן הכהנים,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,0,0,0,Rabbi Akiva,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1957,2432,2:1, 3,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 2,, 3,Rabbi Yehuda,יהודה,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Akiva,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1958,2433,2:2, 1,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 2,, 3,Rabbi Meir,מאיר,NA,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,0,Rabbi Yehuda,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2429,7 +2429,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1981,2463,8:6, 1,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 8,, 3,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1982,2464,8:9, 1,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 8,, 3,Rabbi Yishmael,ישמעאל,NA,NA,Rabbi Elazar ben Azarya,אלעזר בן עזריה,NA,NA,1,0,0,Rabbi Yishmael,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1984,2465,10:1, 1,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים,10,, 3,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Yochanan ben Nuri,יוחנן בן נורי,NA,NA,0,0,0,Rabbi Akiva,Kula 0.0,1,NA,NA,NA,Kula 0.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1985,2466,10:2, 10:4, 3,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים,10,, 3,Rabbi Yehuda,יהודה,NA,NA,Rabbi Eliezer ben Yakov,אליעזר בן יעקב,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1985,2466,10:2; 10:4, 3,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים,10,, 3,Rabbi Yehuda,יהודה,NA,NA,Rabbi Eliezer ben Yakov,אליעזר בן יעקב,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1986,2467,10:4, 1,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים,10,, 3,Rabbi Eliezer ben Yakov,אליעזר בן יעקב,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Eliezer ben Yakov,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1987,2468,10:8, 3,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים,10,, 3,Tanna Kama,NA,NA,NA,Rabbi Shimon ben Yehuda,שמעון בן יהודה,שמעון בן רבי יהודה,שמעון ברבי יהודה,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1987,2469,10:8, 3,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים,10,, 3,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
@@ -2517,7 +2517,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 2046,2552,5:6, 2,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 5,, 4,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2047,2553,6:2, 2,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 6,, 4,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2048,2554,6:2, 2,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 6,, 4,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-2049,2555,7:6, 7:7, 1,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 7,, 4,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,0,0,0,Tanna Kama,,0,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2049,2555,7:6; 7:7, 1,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 7,, 4,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,0,0,0,Tanna Kama,,0,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2050,2556,7:10, 1,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 7,, 4,Tanna Kama,NA,NA,NA,Rabbi Elazar,אלעזר,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2051,2557,7:11, 1,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 7,, 4,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2052,2558,8:8, 3,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 8,, 4,Rabbi Meir,מאיר,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Meir,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -2530,9 +2530,9 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 2057,2565,9:1, 1,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Rabbi Eliezer,אליעזר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2058,2566,9:1, 1,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Rabbi Eliezer,אליעזר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2059,2567,9:2, 2,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-2060,2568,9:3, 11:1, 3,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Tanna Kama,NA,NA,NA,Rabbi Gamliel,גמליאל,NA,NA,1,0,0,Rabbi Gamliel,Kula 0.0,0,NA,NA, 0,Chumra 0.5,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
-2060,2569,9:3, 11:1, 3,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-2060,2570,9:3, 11:1, 3,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Rabbi Gamliel,גמליאל,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Rabbi Gamliel,Chumra 0.5,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
+2060,2568,9:3; 11:1, 3,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Tanna Kama,NA,NA,NA,Rabbi Gamliel,גמליאל,NA,NA,1,0,0,Rabbi Gamliel,Kula 0.0,0,NA,NA, 0,Chumra 0.5,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
+2060,2569,9:3; 11:1, 3,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+2060,2570,9:3; 11:1, 3,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Rabbi Gamliel,גמליאל,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Rabbi Gamliel,Chumra 0.5,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
 2061,2571,9:4, 1,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Yehoshua,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2062,2572,9:4, 1,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Yehoshua,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2063,2573,9:5, 1,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 9,, 4,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -2570,7 +2570,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 2089,2605,1:2, 1,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 1,, 5,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2090,2606,2:2, 1,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 2,, 5,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Yehoshua,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2091,2607,2:2, 1,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 2,, 5,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Yehoshua,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-2092,2608,2:3, 2:7, 1,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 2,, 5,Tanna Kama,NA,NA,NA,Rabbi Elazar,אלעזר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+2092,2608,2:3; 2:7, 1,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 2,, 5,Tanna Kama,NA,NA,NA,Rabbi Elazar,אלעזר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2093,2609,2:8, 1,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 2,, 5,Tanna Kama,NA,NA,NA,Rabbi Elazar ben Tzadok,אלעזר בן צדוק,אלעזר ברבי צדוק,אלעזר בן רבי צדוק,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2094,2610,3:2, 3,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 3,, 5,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 0.5,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
 2094,2611,3:2, 3,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 3,, 5,Rabbi Meir,מאיר,NA,NA,Rabbi Shimon Shizuri,שמעון שזורי,NA,NA,1,0,0,Rabbi Meir,Kula 0.0,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -2582,10 +2582,10 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 2099,2617,4:8, 5,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 4,, 5,Rabbi Yossi,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Yossi,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2099,2618,4:8, 5,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 4,, 5,Rabbi Yossi,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Yossi,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2099,2619,4:8, 5,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 4,, 5,Rabbi Shimon,שמעון,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Shimon,Chumra 1.0,0,NA,NA, 1,Chumra 1.0,0,NA,NA, 1,NA,NA, 1,1.0,NA,NA, 1,1.0
-2100,2620,4:9, 4:10, 1,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 4,, 5,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-2101,2621,5:1, 5:2, 3,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 5,, 5,Rabbi Akiva,עקיבא,עקיבה,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-2101,2622,5:1, 5:2, 3,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 5,, 5,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Akiva,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
-2101,2623,5:1, 5:2, 3,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 5,, 5,Chachamim,חכמים,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Chachamim,Kula 0.0,1,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
+2100,2620,4:9; 4:10, 1,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 4,, 5,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+2101,2621,5:1; 5:2, 3,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 5,, 5,Rabbi Akiva,עקיבא,עקיבה,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+2101,2622,5:1; 5:2, 3,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 5,, 5,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Akiva,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
+2101,2623,5:1; 5:2, 3,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 5,, 5,Chachamim,חכמים,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Chachamim,Kula 0.0,1,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
 2102,2624,5:2, 2,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 5,, 5,Rabbi Akiva,עקיבא,עקיבה,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2103,2625,5:5, 1,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 5,, 5,Rabbi Yehuda,יהודה,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Yossi,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2104,2626,5:6, 1,טהרות56,56,טָהֳרוֹת,Tohoroth,6,Purities,טהרות, 5,, 5,Rabbi Yehuda,יהודה,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Yossi,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -2714,9 +2714,9 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 2188,2750,1:1, 3,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Shamai,שמאי,NA,NA,Hillel,הלל,הילל,NA,1,0,0,Shamai,Kula 0.0,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2188,2751,1:1, 3,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Shamai,שמאי,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 0.5,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
 2188,2752,1:1, 3,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Hillel,הלל,הילל,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
-2189,2753,1:1, 1:3, 3,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Shamai,שמאי,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Rabbi Eliezer,Kula 0.0,0,NA,NA, 0,Chumra 0.5,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
-2189,2754,1:1, 1:3, 3,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Shamai,שמאי,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Shamai,Kula 0.0,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-2189,2755,1:1, 1:3, 3,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Eliezer,Chumra 0.5,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
+2189,2753,1:1; 1:3, 3,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Shamai,שמאי,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Rabbi Eliezer,Kula 0.0,0,NA,NA, 0,Chumra 0.5,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
+2189,2754,1:1; 1:3, 3,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Shamai,שמאי,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Shamai,Kula 0.0,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+2189,2755,1:1; 1:3, 3,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Eliezer,Chumra 0.5,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
 2190,2756,1:4, 1,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Rabbi Meir,מאיר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2191,2757,1:4-5, 1,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2192,2758,1:5, 1,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 1,, 7,Tanna Kama,NA,NA,NA,Rabbi Elazar,אלעזר,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -2788,7 +2788,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 2238,2826,10:8, 1,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה,10,, 7,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2239,2827,10:8, 1,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה,10,, 7,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2240,2828,1:2, 1,מכשירין59,59,טָהֳרוֹת,Tohoroth,6,Purities,מכשירין, 1,, 8,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-2241,2829,1:1, 1:4, 2,מכשירין59,59,טָהֳרוֹת,Tohoroth,6,Purities,מכשירין, 1,, 8,Beit Shamai,בית שמאי,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Yossi,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+2241,2829,1:1; 1:4, 2,מכשירין59,59,טָהֳרוֹת,Tohoroth,6,Purities,מכשירין, 1,, 8,Beit Shamai,בית שמאי,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Yossi,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2242,2830,1:4, 1,מכשירין59,59,טָהֳרוֹת,Tohoroth,6,Purities,מכשירין, 1,, 8,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2243,2831,1:4, 1,מכשירין59,59,טָהֳרוֹת,Tohoroth,6,Purities,מכשירין, 1,, 8,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2244,2832,1:6, 1,מכשירין59,59,טָהֳרוֹת,Tohoroth,6,Purities,מכשירין, 1,, 8,Rabbi Shimon,שמעון,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -2940,8 +2940,8 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 2349,2978,3:2, 3,זבים60,60,טָהֳרוֹת,Tohoroth,6,Purities,זבים, 3,, 9,Tanna Kama,NA,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
 2349,2979,3:2, 3,זבים60,60,טָהֳרוֹת,Tohoroth,6,Purities,זבים, 3,, 9,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2349,2980,3:2, 3,זבים60,60,טָהֳרוֹת,Tohoroth,6,Purities,זבים, 3,, 9,Chachamim,חכמים,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Chachamim,Chumra 0.5,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,0.5,NA,NA, 0,0.0
-2350,2981,3:1, 3:2, 1,זבים60,60,טָהֳרוֹת,Tohoroth,6,Purities,זבים, 3,, 9,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-2351,2982,3:1, 4:1, 1,זבים60,60,טָהֳרוֹת,Tohoroth,6,Purities,זבים, 4,, 9,Tanna Kama,NA,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+2350,2981,3:1; 3:2, 1,זבים60,60,טָהֳרוֹת,Tohoroth,6,Purities,זבים, 3,, 9,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+2351,2982,3:1; 4:1, 1,זבים60,60,טָהֳרוֹת,Tohoroth,6,Purities,זבים, 4,, 9,Tanna Kama,NA,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2352,2983,4:2, 1,זבים60,60,טָהֳרוֹת,Tohoroth,6,Purities,זבים, 4,, 9,Tanna Kama,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2353,2984,4:3, 2,זבים60,60,טָהֳרוֹת,Tohoroth,6,Purities,זבים, 4,, 9,Tanna Kama,NA,NA,NA,Rabbi Nechemia,נחמיה,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2355,2986,4:5, 1,זבים60,60,טָהֳרוֹת,Tohoroth,6,Purities,זבים, 4,, 9,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -3164,8 +3164,8 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
   74,3204,3:9-10, 2,ביכורים11,11, זרעים,Zeraim,1,Seeds,בכורים, 3,,11,Rabbi Shimon,שמעון,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Akiva,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
   89,3205,1:8-9, 2,שבת12,12,מועד,Moed,2,Festival,שבת, 1,, 1,Rabbi Shimon ben Gamliel,שמעון בן גמליאל,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  108,3206,6:4, 2,שבת12,12,מועד,Moed,2,Festival,שבת, 6,, 1,Chachamim,חכמים,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Chachamim,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 186,3207,2:2-3, 2:6, 5,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Stam,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Stam,Chumra 0.5,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
- 186,3208,2:2-3, 2:6, 5,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Stam,NA,NA,NA,Rabbi Elai,אלעאי,NA,NA,1,0,0,Stam,Chumra 0.5,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,0.5,NA,NA, 0,0.0
+ 186,3207,2:2-3; 2:6, 5,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Stam,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Stam,Chumra 0.5,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
+ 186,3208,2:2-3; 2:6, 5,עירובין13,13,מועד,Moed,2,Festival,עירובין, 2,, 2,Stam,NA,NA,NA,Rabbi Elai,אלעאי,NA,NA,1,0,0,Stam,Chumra 0.5,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,0.5,NA,NA, 0,0.0
  196,3209,3:4, 6,עירובין13,13,מועד,Moed,2,Festival,עירובין, 3,, 2,Rabbi Yehuda,יהודה,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Yossi,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  203,3210,4:1, 4,עירובין13,13,מועד,Moed,2,Festival,עירובין, 4,, 2,Rabbi Elazar ben Azarya,אלעזר בן עזריה,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Elazar ben Azarya,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  272,3211,6:1-2, 3,פסחים14,14,מועד,Moed,2,Festival,פסחים, 6,, 3,Rabbi Yehoshua,יהושע,יהושוע,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Rabbi Yehoshua,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -3173,8 +3173,8 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  301,3213,4:7, 4,שקלים15,15,מועד,Moed,2,Festival,שקלים, 4,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,0,0,0,Rabbi Akiva,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  344,3214,2:1, 2,סוכה17,17,מועד,Moed,2,Festival,סוכה, 2,, 6,Rabbi Shimon,שמעון,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Rabbi Shimon,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  346,3215,2:5, 2,סוכה17,17,מועד,Moed,2,Festival,סוכה, 2,, 6,Rabbi Gamliel,גמליאל,NA,NA,Rabbi Tzadok,צדוק,NA,NA,1,0,0,Rabbi Gamliel,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 352,3216,3:2, 3:4, 5,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Rabbi Yishmael,ישמעאל,NA,NA,Rabbi Tarfon,טרפון,NA,NA,1,0,0,Rabbi Tarfon,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 352,3217,3:2, 3:4, 5,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Rabbi Yishmael,ישמעאל,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Yishmael,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+ 352,3216,3:2; 3:4, 5,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Rabbi Yishmael,ישמעאל,NA,NA,Rabbi Tarfon,טרפון,NA,NA,1,0,0,Rabbi Tarfon,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+ 352,3217,3:2; 3:4, 5,סוכה17,17,מועד,Moed,2,Festival,סוכה, 3,, 6,Rabbi Yishmael,ישמעאל,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Yishmael,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  386,3218,2:6, 2,ביצה18,18,מועד,Moed,2,Festival,ביצה, 2,, 7,Beit Shamai,בית שמאי,NA,NA,Stam,NA,NA,NA,1,0,0,Stam,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  387,3219,2:6, 2,ביצה18,18,מועד,Moed,2,Festival,ביצה, 2,, 7,Beit Shamai,בית שמאי,NA,NA,Stam,NA,NA,NA,1,0,0,Stam,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  388,3220,2:6, 2,ביצה18,18,מועד,Moed,2,Festival,ביצה, 2,, 7,Beit Shamai,בית שמאי,NA,NA,Stam,NA,NA,NA,1,0,0,Stam,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -3187,10 +3187,10 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  516,3227,2:2,25,חגיגה23,23,מועד,Moed,2,Festival,חגיגה, 2,,12,Avtalyon,NA,NA,NA,Yosef ben Yochanan,יוסף בן יוחנן,יוסי בן יוחנן,NA,1,0,0,Yosef ben Yochanan,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  516,3228,2:2,25,חגיגה23,23,מועד,Moed,2,Festival,חגיגה, 2,,12,Shamai,שמאי,NA,NA,Yosef ben Yochanan,יוסף בן יוחנן,יוסי בן יוחנן,NA,1,0,0,Yosef ben Yochanan,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  541,3229,6:5, 2,יבמות24,24,נשים,Naschim,3,Women,יבמות, 6,, 1,Chachamim,חכמים,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Chachamim,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 546,3230,8:4, 8:6, 4,יבמות24,24,נשים,Naschim,3,Women,יבמות, 8,, 1,Rabbi Yehoshua ben Bathyra,יהושע בן בתירא,יהושע בן בתירה,NA,Rabbi Eliezer,אליעזר,NA,NA,0,0,0,Rabbi Yehoshua ben Bathyra,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
- 573,3231,15:4, 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 573,3232,15:4, 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Tanna Kama,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
- 573,3233,15:4, 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Yehoshua,יהושע,יהושוע,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Yehoshua,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
+ 546,3230,8:4; 8:6, 4,יבמות24,24,נשים,Naschim,3,Women,יבמות, 8,, 1,Rabbi Yehoshua ben Bathyra,יהושע בן בתירא,יהושע בן בתירה,NA,Rabbi Eliezer,אליעזר,NA,NA,0,0,0,Rabbi Yehoshua ben Bathyra,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ 573,3231,15:4; 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Tanna Kama,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+ 573,3232,15:4; 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Tanna Kama,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
+ 573,3233,15:4; 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Yehoshua,יהושע,יהושוע,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Yehoshua,Chumra 1.0,0,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
  584,3234,1:6, 2,כתובות25,25,נשים,Naschim,3,Women,כתובות, 1,, 2,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,0,0,1,Rabbi Eliezer,Chayav 1.0,1, 1,NA,NA,Patur 0.0,0, 0,NA,NA,1.0,NA,NA,NA,0.0,NA,NA,NA
  585,3235,1:7, 2,כתובות25,25,נשים,Naschim,3,Women,כתובות, 1,, 2,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,0,0,1,Rabbi Eliezer,Chayav 1.0,1, 1,NA,NA,Patur 0.0,0, 0,NA,NA,1.0,NA,NA,NA,0.0,NA,NA,NA
  586,3236,1:8, 2,כתובות25,25,נשים,Naschim,3,Women,כתובות, 1,, 2,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Eliezer,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -3203,7 +3203,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  695,3243,11:4, 2,נדרים26,26,נשים,Naschim,3,Women,נדרים,11,, 3,Rabbi Yochanan ben Nuri,יוחנן בן נורי,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,0,0,0,Rabbi Yochanan ben Nuri,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  735,3245,7:3-4, 3,נזיר27,27,נשים,Naschim,3,Women,נזיר, 7,, 4,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Eliezer,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  735,3246,7:3-4, 3,נזיר27,27,נשים,Naschim,3,Women,נזיר, 7,, 4,Rabbi Yehoshua,יהושע,יהושוע,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Yehoshua,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 749,3247,3:4, 3:5, 2,סוטה28,28,נשים,Naschim,3,Women,סוטה, 3,, 5,Rebbe,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rebbe,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+ 749,3247,3:4; 3:5, 2,סוטה28,28,נשים,Naschim,3,Women,סוטה, 3,, 5,Rebbe,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rebbe,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  754,3248,5:1, 2,סוטה28,28,נשים,Naschim,3,Women,סוטה, 5,, 5,Rabbi Yehoshua,יהושע,יהושוע,NA,Rebbe,NA,NA,NA,0,0,0,Rabbi Yehoshua,,0,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  771,3249,1:1, 5,גיטין29,29,נשים,Naschim,3,Women,גיטין, 1,, 6,Chachamim,חכמים,NA,NA,Rabbi Gamliel,גמליאל,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 0.5,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,0.5
  771,3250,1:1, 5,גיטין29,29,נשים,Naschim,3,Women,גיטין, 1,, 6,Chachamim,חכמים,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -3233,7 +3233,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1185,3274,7:7, 2,עדייות37,37,נזיקין,Nezikin,4,Damages,עדיות, 7,, 7,Rabbi Pappis,פפיס,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Rabbi Pappis,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1186,3275,7:7, 2,עדייות37,37,נזיקין,Nezikin,4,Damages,עדיות, 7,, 7,Rabbi Pappis,פפיס,NA,NA,Prior approach,היו אומרים,NA,NA,1,0,0,Rabbi Pappis,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1189,3276,8:3, 2,עדייות37,37,נזיקין,Nezikin,4,Damages,עדיות, 8,, 7,Rabbi Yehoshua ben Bathyra,יהושע בן בתירא,יהושע בן בתירה,NA,Rabbi Shimon ben Gamliel,שמעון בן גמליאל,NA,NA,1,0,0,Rabbi Shimon ben Gamliel,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-1204,3277,2:4, 2:6, 4,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Stam,NA,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1204,3277,2:4; 2:6, 4,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Stam,NA,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1209,3278,3:3, 2,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 3,, 8,Stam,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Yossi,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1254,3279,4:9, 4,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 4,, 4,Rabbi Yehuda,יהודה,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Meir,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1289,3280,2:5, 2,זבחים41,41,קדשים,Kodashim,5,Holy things,זבחים, 2,, 1,Chachamim,חכמים,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Chachamim,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -3245,8 +3245,8 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1412,3286,2:7, 2,חולין43,43,קדשים,Kodashim,5,Holy things,חולין, 2,, 3,Rabbi Yossi,NA,NA,NA,Rabbi Eliezer,אליעזר,NA,NA,1,0,0,Rabbi Yossi,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1468,3287,2:8, 2,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 2,, 4,Rabbi Meir,מאיר,NA,NA,Rabbi Yossi,NA,NA,NA,1,1,0,Rabbi Yossi,BHB 0.0,0,NA, 1, 0,BHB 1.0,1,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
 1489,3288,6:8, 2,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 6,, 4,Later Beit Din,בית דין של אחריהן,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Later Beit Din,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-1511,3289,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Shimon,שמעון,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Shimon,Kula 0.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
-1511,3290,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Stam,NA,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Stam,Kula 0.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
+1511,3289,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Shimon,שמעון,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Shimon,Kula 0.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
+1511,3290,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Stam,NA,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Stam,Kula 0.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
 1528,3291,8:5, 2,ערכין45,45,קדשים,Kodashim,5,Holy things,ערכין, 8,, 5,Rebbe,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rebbe,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1536,3292,1:1, 2,תמורה46,46,קדשים,Kodashim,5,Holy things,תמורה, 1,, 6,Tanna Kama,NA,NA,NA,Rabbi Yochanan ben Nuri,יוחנן בן נורי,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1541,3293,2:2, 2,תמורה46,46,קדשים,Kodashim,5,Holy things,תמורה, 2,, 6,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
@@ -3311,7 +3311,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  241,3352,10:9, 2,עירובין13,13,מועד,Moed,2,Festival,עירובין,10,, 2,Rabbi Meir,מאיר,NA,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Yossi,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  259,3353,3:4, 2,פסחים14,14,מועד,Moed,2,Festival,פסחים, 3,, 3,Rabbi Gamliel,גמליאל,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Rabbi Akiva,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  280,3354,9:2, 2,פסחים14,14,מועד,Moed,2,Festival,פסחים, 9,, 3,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Yossi,NA,NA,NA,1,0,0,Rabbi Akiva,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 291,3355,2:3, 2:5, 2,שקלים15,15,מועד,Moed,2,Festival,שקלים, 2,, 4,Beit Shamai,בית שמאי,NA,NA,Tanna Kama,NA,NA,NA,1,1,0,Tanna Kama,BHB 0.0,0,NA, 1, 0,BHB 1.0,1,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
+ 291,3355,2:3; 2:5, 2,שקלים15,15,מועד,Moed,2,Festival,שקלים, 2,, 4,Beit Shamai,בית שמאי,NA,NA,Tanna Kama,NA,NA,NA,1,1,0,Tanna Kama,BHB 0.0,0,NA, 1, 0,BHB 1.0,1,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
  294,3356,3:1, 5,שקלים15,15,מועד,Moed,2,Festival,שקלים, 3,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Rabbi Akiva,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  294,3357,3:1, 5,שקלים15,15,מועד,Moed,2,Festival,שקלים, 3,, 4,Shimon ben Azai,בן עזאי,NA,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Shimon ben Azai,,0,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  301,3358,4:7, 4,שקלים15,15,מועד,Moed,2,Festival,שקלים, 4,, 4,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Pappis,פפיס,NA,NA,0,0,0,Rabbi Eliezer,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -3329,21 +3329,21 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  536,3370,4:13, 5,יבמות24,24,נשים,Naschim,3,Women,יבמות, 4,, 1,Shimon Hateimani,שמעון התימני,NA,NA,Shimon ben Azai,בן עזאי,NA,NA,1,0,0,Shimon Hateimani,Chumra 0.5,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,0.5,NA,NA, 0,0.0
  539,3371,6:3, 2,יבמות24,24,נשים,Naschim,3,Women,יבמות, 6,, 1,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  540,3372,6:4, 2,יבמות24,24,נשים,Naschim,3,Women,יבמות, 6,, 1,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 546,3373,8:4, 8:6, 4,יבמות24,24,נשים,Naschim,3,Women,יבמות, 8,, 1,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,0,Rabbi Akiva,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ 546,3373,8:4; 8:6, 4,יבמות24,24,נשים,Naschim,3,Women,יבמות, 8,, 1,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,0,Rabbi Akiva,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  559,3374,12:5, 3,יבמות24,24,נשים,Naschim,3,Women,יבמות,12,, 1,Tanna Kama,NA,NA,NA,Rabbi Yochanan Hasandlar,יוחנן הסנדלר,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  559,3375,12:5, 3,יבמות24,24,נשים,Naschim,3,Women,יבמות,12,, 1,Tanna Kama,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 573,3376,15:4, 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Gamliel,גמליאל,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Gamliel,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+ 573,3376,15:4; 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Gamliel,גמליאל,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Gamliel,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  574,3377,15:5, 2,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Rabbi Meir,מאיר,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Shimon,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  589,3378,2:7-8, 5,כתובות25,25,נשים,Naschim,3,Women,כתובות, 2,, 2,Tanna Kama,NA,NA,NA,Rabbi Elazar,אלעזר,NA,NA,1,0,0,Tanna Kama,Chumra 0.5,0,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
- 591,3379,3:3, 3:6, 2,כתובות25,25,נשים,Naschim,3,Women,כתובות, 3,, 2,Rabbi Yossi Haglili,NA,NA,NA,Rabbi Elazar,אלעזר,NA,NA,0,0,1,Rabbi Elazar,Patur 0.0,0, 0,NA,NA,Chayav 1.0,1, 1,NA,NA,0.0,NA,NA,NA,1.0,NA,NA,NA
+ 591,3379,3:3; 3:6, 2,כתובות25,25,נשים,Naschim,3,Women,כתובות, 3,, 2,Rabbi Yossi Haglili,NA,NA,NA,Rabbi Elazar,אלעזר,NA,NA,0,0,1,Rabbi Elazar,Patur 0.0,0, 0,NA,NA,Chayav 1.0,1, 1,NA,NA,0.0,NA,NA,NA,1.0,NA,NA,NA
  636,3380,13:1, 4,כתובות25,25,נשים,Naschim,3,Women,כתובות,13,, 2,Chanan ben Avshalom,NA,NA,NA,Rabbi Dosa ben Harkinas,דוסא,NA,NA,0,0,0,Chanan ben Avshalom,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  637,3381,13:2, 4,כתובות25,25,נשים,Naschim,3,Women,כתובות,13,, 2,Chanan ben Avshalom,NA,NA,NA,Rabbi Dosa ben Harkinas,דוסא,NA,NA,0,0,1,Chanan ben Avshalom,Patur 0.0,1, 0,NA,NA,Chayav 1.0,0, 1,NA,NA,0.0,NA,NA,NA,1.0,NA,NA,NA
  638,3382,13:3, 2,כתובות25,25,נשים,Naschim,3,Women,כתובות,13,, 2,Tanna Kama,NA,NA,NA,Rabbi Gamliel,גמליאל,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  640,3383,13:5, 2,כתובות25,25,נשים,Naschim,3,Women,כתובות,13,, 2,Tanna Kama,NA,NA,NA,Rabbi Gamliel,גמליאל,NA,NA,0,0,0,Rabbi Gamliel,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  688,3384,9:1, 2,נדרים26,26,נשים,Naschim,3,Women,נדרים, 9,, 3,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Tzadok,צדוק,NA,NA,1,0,0,Rabbi Tzadok,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 709,3385,3:4, 3:6, 2,נזיר27,27,נשים,Naschim,3,Women,נזיר, 3,, 4,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+ 709,3385,3:4; 3:6, 2,נזיר27,27,נשים,Naschim,3,Women,נזיר, 3,, 4,Tanna Kama,NA,NA,NA,Rabbi Yehuda,יהודה,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  736,3386,8:1, 2,נזיר27,27,נשים,Naschim,3,Women,נזיר, 8,, 4,Rabbi Yehoshua,יהושע,יהושוע,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
- 747,3387,3:2, 3:4, 2,סוטה28,28,נשים,Naschim,3,Women,סוטה, 3,, 5,Tanna Kama,NA,NA,NA,Stam,NA,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ 747,3387,3:2; 3:4, 2,סוטה28,28,נשים,Naschim,3,Women,סוטה, 3,, 5,Tanna Kama,NA,NA,NA,Stam,NA,NA,NA,0,0,0,Tanna Kama,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  748,3388,3:4, 2,סוטה28,28,נשים,Naschim,3,Women,סוטה, 3,, 5,Shimon ben Azai,בן עזאי,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Yehoshua,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
  813,3389,9:1-2, 2,גיטין29,29,נשים,Naschim,3,Women,גיטין, 9,, 6,Rabbi Eliezer,אליעזר,NA,NA,Tanna Kama,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  946,3390,3:1, 2,בבא בתרא33,33,נזיקין,Nezikin,4,Damages,בבא בתרא, 3,, 3,Tanna Kama,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,0,0,0,Tanna Kama,Chazaka 0.0,0,NA,NA,NA,Chazaka 1.0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -3353,14 +3353,14 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1069,3394,1:4-5, 5,שבועות36,36,נזיקין,Nezikin,4,Damages,שבועות, 1,, 6,Rabbi Yehuda,יהודה,NA,NA,Rabbi Shimon ben Yehuda,שמעון בן יהודה,שמעון בן רבי יהודה,שמעון ברבי יהודה,1,0,0,Rabbi Yehuda,Chumra 0.5,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
 1179,3395,6:3, 2,עדייות37,37,נזיקין,Nezikin,4,Damages,עדיות, 6,, 7,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Nichunia,נחוניא,NA,NA,1,0,0,Rabbi Nichunia,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1180,3396,6:3, 2,עדייות37,37,נזיקין,Nezikin,4,Damages,עדיות, 6,, 7,Rabbi Nichunia,נחוניא,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Rabbi Yehoshua,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-1204,3397,2:4, 2:6, 4,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Rabbi Meir,מאיר,NA,NA,Stam,NA,NA,NA,1,0,0,Stam,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1204,3397,2:4; 2:6, 4,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Rabbi Meir,מאיר,NA,NA,Stam,NA,NA,NA,1,0,0,Stam,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1254,3398,4:9, 4,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 4,, 4,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Shimon,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1266,3399,7:4, 2,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 7,, 4,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Shimon,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1353,3400,4:3, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות, 4,, 2,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Rabbi Akiva,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1378,3401,9:1, 9:5, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות, 9,, 2,Tanna Kama,NA,NA,NA,Stam,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+1378,3401,9:1; 9:5, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות, 9,, 2,Tanna Kama,NA,NA,NA,Stam,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1390,3402,11:5, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,11,, 2,Rabbi Yehuda,יהודה,NA,NA,Aba Shaul,אבא שאול,NA,NA,1,0,0,Aba Shaul,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-1397,3403,13:2, 6, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Stam,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-1399,3404,13:6, 8, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Stam,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+1397,3403,13:2; 6, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Stam,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+1399,3404,13:6; 8, 2,מנחות42,42,קדשים,Kodashim,5,Holy things,מנחות,13,, 2,Tanna Kama,NA,NA,NA,Stam,NA,NA,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1411,3405,2:6, 5,חולין43,43,קדשים,Kodashim,5,Holy things,חולין, 2,, 3,Rabbi Gamliel,גמליאל,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Gamliel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1451,3406,11:2, 3,חולין43,43,קדשים,Kodashim,5,Holy things,חולין,11,, 3,Beit Shamai,בית שמאי,NA,NA,Rabbi Dosa ben Harkinas,דוסא,NA,NA,1,1,0,Rabbi Dosa ben Harkinas,BHB 0.0,0,NA, 1, 0,BHB 1.0,1,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
 1451,3407,11:2, 3,חולין43,43,קדשים,Kodashim,5,Holy things,חולין,11,, 3,Beit Shamai,בית שמאי,NA,NA,Chachamim,חכמים,NA,NA,1,1,0,Chachamim,BHB 0.0,0,NA, 1, 0,BHB 1.0,1,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
@@ -3369,10 +3369,10 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1460,3410,2:6, 4,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 2,, 4,Rabbi Yossi Haglili,NA,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,1,0,Rabbi Akiva,BHB 0.0,0,NA, 1, 0,BHB 1.0,1,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
 1460,3411,2:6, 4,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 2,, 4,Rabbi Yossi Haglili,NA,NA,NA,Rabbi Yossi,NA,NA,NA,1,1,0,Rabbi Yossi,BHB 0.0,0,NA, 1, 0,BHB 1.0,1,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
 1460,3412,2:6, 4,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 2,, 4,Rabbi Yossi Haglili,NA,NA,NA,Chachamim,חכמים,NA,NA,1,1,0,Chachamim,BHB 0.0,0,NA, 1, 0,BHB 1.0,1,NA, 0, 1,NA,0.0, 0,0.0,NA,1.0, 1,1.0
-1511,3413,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Akiva,Kula 0.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
-1511,3414,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Stam,NA,NA,NA,1,0,0,Rabbi Akiva,Kula 0.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
-1511,3415,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Shimon ben Azai,בן עזאי,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Shimon ben Azai,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-1511,3416,9:5, 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Shimon ben Azai,בן עזאי,NA,NA,Stam,NA,NA,NA,1,0,0,Shimon ben Azai,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1511,3413,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Akiva,Kula 0.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
+1511,3414,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Rabbi Akiva,עקיבא,עקיבה,NA,Stam,NA,NA,NA,1,0,0,Rabbi Akiva,Kula 0.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 1,NA,NA, 1,0.0,NA,NA, 1,0.0
+1511,3415,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Shimon ben Azai,בן עזאי,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Shimon ben Azai,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1511,3416,9:5; 9:6,12,בכורות44,44,קדשים,Kodashim,5,Holy things,בכורות, 9,, 4,Shimon ben Azai,בן עזאי,NA,NA,Stam,NA,NA,NA,1,0,0,Shimon ben Azai,Chumra 1.0,0,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1526,3417,7:5, 2,ערכין45,45,קדשים,Kodashim,5,Holy things,ערכין, 7,, 5,Rabbi Meir,מאיר,NA,NA,Rabbi Shimon,שמעון,NA,NA,0,0,0,Rabbi Shimon,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 1620,3418,2:6, 5,שביעית5,5, זרעים,Zeraim,1,Seeds,שביעית, 2,, 5,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Shimon,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1620,3419,2:6, 5,שביעית5,5, זרעים,Zeraim,1,Seeds,שביעית, 2,, 5,Rabbi Yehuda,יהודה,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Shimon,Chumra 0.5,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
@@ -3384,8 +3384,8 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 1944,3425,17:5, 2,אוהלות53,53,טָהֳרוֹת,Tohoroth,6,Purities,אהלות,17,, 2,Rabbi Eliezer,אליעזר,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1957,3426,2:1, 3,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 2,, 3,Rabbi Yehuda,יהודה,NA,NA,Rabbi Yishmael,ישמעאל,NA,NA,1,0,0,Rabbi Yishmael,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 1957,3427,2:1, 3,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים, 2,, 3,Rabbi Yehuda,יהודה,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
-1985,3428,10:2, 10:4, 3,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים,10,, 3,Rabbi Yehuda,יהודה,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
-1985,3429,10:2, 10:4, 3,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים,10,, 3,Rabbi Yehuda,יהודה,NA,NA,Tanna Kama,NA,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1985,3428,10:2; 10:4, 3,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים,10,, 3,Rabbi Yehuda,יהודה,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1985,3429,10:2; 10:4, 3,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים,10,, 3,Rabbi Yehuda,יהודה,NA,NA,Tanna Kama,NA,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1999,3430,12:5, 2,נגעים54,54,טָהֳרוֹת,Tohoroth,6,Purities,נגעים,12,, 3,Rabbi Yehuda,יהודה,NA,NA,Rabbi Meir,מאיר,NA,NA,1,0,0,Rabbi Yehuda,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2017,3431,1:1, 3,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 1,, 4,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,0,0,0,Rabbi Yehoshua,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2017,3432,1:1, 3,פרה55,55,טָהֳרוֹת,Tohoroth,6,Purities,פרה, 1,, 4,Rabbi Eliezer,אליעזר,NA,NA,Chachamim,חכמים,NA,NA,0,0,0,Chachamim,,0,NA,NA,NA,,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -3400,7 +3400,7 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
 2197,3441,2:6, 9,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 2,, 7,Akavia ben Mahalalel,עקביא בן מהללאל,NA,NA,Chachamim,חכמים,NA,NA,1,0,0,Chachamim,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2206,3442,4:5, 5,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 4,, 7,Rabbi Meir,מאיר,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Shimon,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
 2206,3443,4:5, 5,נידה58,58,טָהֳרוֹת,Tohoroth,6,Purities,נדה, 4,, 7,Rabbi Yehuda,יהודה,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Shimon,Chumra 0.5,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.5,NA,NA, 1,1.0
-2241,3444,1:1, 1:4, 2,מכשירין59,59,טָהֳרוֹת,Tohoroth,6,Purities,מכשירין, 1,, 8,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+2241,3444,1:1; 1:4, 2,מכשירין59,59,טָהֳרוֹת,Tohoroth,6,Purities,מכשירין, 1,, 8,Beit Shamai,בית שמאי,NA,NA,Beit Hillel,בית הלל,בית הילל,NA,1,0,0,Beit Hillel,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2295,3445,4:5, 5,תרומות6,6, זרעים,Zeraim,1,Seeds,תרומות, 4,, 6,Rabbi Eliezer,אליעזר,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,1,0,Rabbi Akiva,BHB 1.0,0,NA, 0, 1,BHB 0.0,1,NA, 1, 0,NA,1.0, 1,1.0,NA,0.0, 0,0.0
 2295,3446,4:5, 5,תרומות6,6, זרעים,Zeraim,1,Seeds,תרומות, 4,, 6,Rabbi Yishmael,ישמעאל,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,1,0,Rabbi Akiva,BHB 0.5,0,NA, 0, 1,BHB 0.0,1,NA, 1, 0,NA,0.5, 1,0.5,NA,0.0, 0,0.0
 2346,3447,3:1-2, 2,זבים60,60,טָהֳרוֹת,Tohoroth,6,Purities,זבים, 3,, 9,Tanna Kama,NA,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Tanna Kama,Chumra 1.0,1,NA,NA, 1,Kula 0.0,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
@@ -3431,11 +3431,11 @@ SeqID,DisputeID,Location,EffectiveRows,tab,tabnum,Seder_Hebrew,Seder_Name,Seder_
  516,3472,2:2,25,חגיגה23,23,מועד,Moed,2,Festival,חגיגה, 2,,12,Shamai,שמאי,NA,NA,Shimon ben Shetach,NA,NA,NA,1,0,0,Shimon ben Shetach,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  516,3473,2:2,25,חגיגה23,23,מועד,Moed,2,Festival,חגיגה, 2,,12,Shamai,שמאי,NA,NA,Shimaya,NA,NA,NA,1,0,0,Shimaya,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  516,3474,2:2,25,חגיגה23,23,מועד,Moed,2,Festival,חגיגה, 2,,12,Shamai,שמאי,NA,NA,Hillel,הלל,הילל,NA,1,0,0,Hillel,Kula 0.0,0,NA,NA, 0,Chumra 1.0,1,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
- 546,3475,8:4, 8:6, 4,יבמות24,24,נשים,Naschim,3,Women,יבמות, 8,, 1,Rabbi Yehoshua ben Bathyra,יהושע בן בתירא,יהושע בן בתירה,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,0,Rabbi Yehoshua ben Bathyra,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
- 573,3476,15:4, 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Tanna Kama,NA,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
+ 546,3475,8:4; 8:6, 4,יבמות24,24,נשים,Naschim,3,Women,יבמות, 8,, 1,Rabbi Yehoshua ben Bathyra,יהושע בן בתירא,יהושע בן בתירה,NA,Rabbi Yehuda,יהודה,NA,NA,0,0,0,Rabbi Yehoshua ben Bathyra,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+ 573,3476,15:4; 16:7, 8,יבמות24,24,נשים,Naschim,3,Women,יבמות,15,, 1,Tanna Kama,NA,NA,NA,Rabbi Yehoshua,יהושע,יהושוע,NA,1,0,0,Tanna Kama,Kula 0.0,1,NA,NA, 0,Chumra 1.0,0,NA,NA, 1,NA,NA, 0,0.0,NA,NA, 1,1.0
  636,3477,13:1, 4,כתובות25,25,נשים,Naschim,3,Women,כתובות,13,, 2,Rabbi Yochanan ben Zakai,יוחנן בן זכאי,NA,NA,Rabbi Dosa ben Harkinas,דוסא,NA,NA,0,0,0,Rabbi Yochanan ben Zakai,,1,NA,NA,NA,,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
  637,3478,13:2, 4,כתובות25,25,נשים,Naschim,3,Women,כתובות,13,, 2,Rabbi Yochanan ben Zakai,יוחנן בן זכאי,NA,NA,Rabbi Dosa ben Harkinas,דוסא,NA,NA,0,0,1,Rabbi Yochanan ben Zakai,Patur 0.0,1, 0,NA,NA,Chayav 1.0,0, 1,NA,NA,0.0,NA,NA,NA,1.0,NA,NA,NA
-1204,3479,2:4, 2:6, 4,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Stam,NA,NA,NA,Stam,NA,NA,NA,1,0,0,Stam,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
+1204,3479,2:4; 2:6, 4,עבודה זרה38,38,נזיקין,Nezikin,4,Damages,עבודה זרה, 2,, 8,Stam,NA,NA,NA,Stam,NA,NA,NA,1,0,0,Stam,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1254,3480,4:9, 4,כלאיים4,4, זרעים,Zeraim,1,Seeds,כלאים, 4,, 4,Rabbi Yehuda,יהודה,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Shimon,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 1795,3481,18:4, 4,כלים52,52,טָהֳרוֹת,Tohoroth,6,Purities,כלים,18,, 1,Rabbi Yehuda,יהודה,NA,NA,Rabbi Shimon,שמעון,NA,NA,1,0,0,Rabbi Shimon,Chumra 1.0,0,NA,NA, 1,Kula 0.0,1,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.0
 2401,3482,3:5,14,ידיים62,62,טָהֳרוֹת,Tohoroth,6,Purities,ידים, 3,,11,Shimon ben Azai,בן עזאי,NA,NA,Rabbi Akiva,עקיבא,עקיבה,NA,1,0,0,Shimon ben Azai,Chumra 1.0,1,NA,NA, 1,Chumra 0.5,0,NA,NA, 0,NA,NA, 1,1.0,NA,NA, 0,0.5
