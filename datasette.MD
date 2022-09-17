@@ -34,3 +34,5 @@ When you click on the vignette links you should first see a data loading page li
 ![loading_page](https://github.com/BenjaminKay/MishnaBase/blob/main/images/data%20is%20loading.png) 
 After 30 seconds to a minute you should see either the landing page or query results, depending on which link you clicked:
 ![landing_page](https://github.com/BenjaminKay/MishnaBase/blob/main/images/sucessfully%20loaded%20and%20ready%20for%20qry.png) 
+![landing_page](https://github.com/BenjaminKay/MishnaBase/blob/main/images/qry_example.png) 
+
