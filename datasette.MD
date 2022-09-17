@@ -1,6 +1,9 @@
 # Interactive online tools for exploring MishnahBase
 
-## The following links use [Datasette.io](datasette.io), a web hosted database service, to demonstrate the power of [MishnaBase](https://github.com/BenjaminKay/MishnaBase/).
+Using [Datasette.io](datasette.io), a web hosted database service, users can explore [MishnaBase](https://github.com/BenjaminKay/MishnaBase/) using nothing but a browser. More advanced users may find it easier to download the data from GitHub and import the key files into Excel, R, Python, Stata, or another preferred data tool. 
+
+
+## Data Exploration Vignettes 
 
 [Load the Data Into Datasette](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30LinkMatrixWTies_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30PrettyTableUnique_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30StrictWinLinkMatrix_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30WinLinkMatrix_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2Farguments.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2Fdisputes.csv#/data).
 
@@ -24,3 +27,8 @@
 [Example 9: All arguments involving Rabbi Yossi](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30LinkMatrixWTies_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30PrettyTableUnique_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30StrictWinLinkMatrix_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30WinLinkMatrix_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2Farguments.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2Fdisputes.csv#/data?sql=select%0D%0A++*%0D%0Afrom%0D%0A++arguments%0D%0Awhere%0D%0A++%22Disputant_1%22+like+%3Ap0%0D%0A++OR+%22Disputant_2%22+like+%3Ap0%0D%0A++OR+%22Disputant_3%22+like+%3Ap0%0D%0A++OR+%22Disputant_4%22+like+%3Ap0%0D%0A++OR+%22Disputant_5%22+like+%3Ap0%0D%0A++OR+%22Disputant_6%22+like+%3Ap0%0D%0Aorder+by%0D%0A++rowid&p0=Rabbi+Yossi)
 
 [Example 10: All arguments involving Rabbi Yossi concerning strictness](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30LinkMatrixWTies_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30PrettyTableUnique_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30StrictWinLinkMatrix_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2FTop30WinLinkMatrix_CullFALSE.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2Farguments.csv&csv=https%3A%2F%2Fraw.githubusercontent.com%2FBenjaminKay%2FMishnaBase%2Fmain%2Fdisputes.csv#/data?sql=select%0D%0A++*%0D%0Afrom%0D%0A++arguments%0D%0Awhere%0D%0A++%28%0D%0A++++%22Disputant_1%22+like+%3Ap0%0D%0A++++OR+%22Disputant_2%22+like+%3Ap0%0D%0A++++OR+%22Disputant_3%22+like+%3Ap0%0D%0A++++OR+%22Disputant_4%22+like+%3Ap0%0D%0A++++OR+%22Disputant_5%22+like+%3Ap0%0D%0A++++OR+%22Disputant_6%22+like+%3Ap0%0D%0A++%29%0D%0A++AND+%28%0D%0A++++%22Result_1%22+like+%22%25Kula%25%22%0D%0A++++OR+%22Result_1%22+like+%22%25Chumra%25%22%0D%0A++++OR+%22Result_1%22+like+%22%25BHB%25%22%0D%0A++%29%0D%0Aorder+by%0D%0A++rowid&p0=Rabbi+Yossi)
+
+
+## Having a problem?
+When you click on the vignette links you should first see a data loading page like this:
+![loading_page](https://github.com/BenjaminKay/MishnaBase/blob/main/images/data%20is%20loading.png) 
