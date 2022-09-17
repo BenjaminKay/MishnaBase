@@ -13,6 +13,10 @@ For a detailed discussion of the methodology with which we assembled this databa
 
 \* - The views and opinions expressed in this article are those of the authors and do not reflect the views or opinions of their employers. 
 
+## Interactive data
+
+To use an interactive online tool to examine Mishnabase, see directions [here](https://github.com/BenjaminKay/MishnaBase/blob/main/datasette.MD).
+
 ## Key Project Files
 ### This repository includes a number of files including:
 
