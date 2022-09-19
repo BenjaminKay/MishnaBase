@@ -15,7 +15,7 @@ For a detailed discussion of the methodology with which we assembled this databa
 
 ## Interactive data
 
-To use an interactive online tool to examine Mishnabase, see directions [here](https://github.com/BenjaminKay/MishnaBase/blob/main/datasette.MD).
+To use an interactive online tool to examine Mishnabase, see directions [here](https://github.com/BenjaminKay/MishnaBase/blob/main/datasette.MD). The page also includes many vignettes showing how to use the interactive tool. 
 
 ## Key Project Files
 ### This repository includes a number of files including:
