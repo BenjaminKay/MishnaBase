@@ -198,6 +198,11 @@ df_scores6e$Is_Hebrew_Disputant_Name_In_Mishna_Text_2_any <-
 
 df_scores6 <- df_scores6e
 
+# Get EffectiveRows from df_scores6 and merge back into df_scores2
+
+df_effective_rows = df_scores6 %>% select(EffectiveRows, SeqID) %>% group_by(SeqID) %>% summarise(n_entries=n(), EffectiveRows = median(EffectiveRows), countunique = n_distinct(EffectiveRows))
+df_scores2_with_effective_rows = df_scores2 %>% left_join(df_effective_rows %>% select(EffectiveRows, SeqID), by="SeqID")
+
 
 print(df_scores6 %>% filter(!IsCopy) %>% dim())
 print(df_scores6  %>% dim())

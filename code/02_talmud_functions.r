@@ -53,6 +53,20 @@ write_utf8_csv <- function(df, file) {
     writeLines(c(firstline, data), file , useBytes = TRUE)
 }
 
+write_utf8_csv_noquotes <- function(df, file) {
+# Write csv does not behave properly on encoding when using windows, this fixes it
+# https://stackoverflow.com/questions/36865202/hebrew-encoding-hell-in-r-and-writing-a-utf-8-table-in-windows
+    # Quotation marks around everything
+    #firstline <- paste('"', names(df), '"', sep = "", collapse = " , ")
+    #data <- apply(df, 1, function(x) {paste('"', x, '"', sep = "", collapse = " , ")})
+    # No quotes
+    firstline <- paste(names(df), sep = "", collapse = ",")    
+    data <- apply(df, 1, function(x) {paste(x, sep = "", collapse = ",")})
+    writeLines(c(firstline, data), file , useBytes = TRUE)
+}
+
+
+
 rename_column <- function(df, old_name_str, new_name_str){
     colnames(df)[colnames(df)==old_name_str] <- new_name_str
     return(df)}  
@@ -615,46 +629,63 @@ AssignResults <- function(df_input){
   # one argument with a BHB 0/1 score (Rabbi V versus Rabbi X)  and two arguments with no BHB 0/1 score 
   # (Rabbi V versus Rabbi Y; Rabbi X versus Rabbi Y). So if one of the two position fields is blank then, 
   #for purposes of considering the pairwise arguments, they should both be treated as blank.
-  df_input$AltStrict_1 <- ifelse(df_input$StrictQuestion==1, 
-    ifelse((df_input$Strict_Result_1 != "") & (df_input$Strict_Result_2 != ""),
-      ifelse(df_input$MoneyQuestion==1,
-        (df_input$Strict_Result_Score_1 <= df_input$Strict_Result_Score_2) * 1,
-        (df_input$Strict_Result_Score_1 >= df_input$Strict_Result_Score_2) * 1),
-      NA), 
-    NA)
-  df_input$AltStrict_2 <- ifelse(df_input$StrictQuestion==1, 
-    ifelse((df_input$Strict_Result_1 != "") & (df_input$Strict_Result_2 != ""),
-      ifelse(df_input$MoneyQuestion==1,
-        (df_input$Strict_Result_Score_1 >= df_input$Strict_Result_Score_2) * 1,
-        (df_input$Strict_Result_Score_1 <= df_input$Strict_Result_Score_2) * 1),
-      NA), 
-    NA)  
 
-  df_input$AltOwe_1 <- ifelse(
-    (df_input$OweQuestion==1) & (df_input$Owe_Result_1 != "") & (df_input$Owe_Result_2 != ""), 
-    (df_input$Owe_Result_Score_1 >= df_input$Owe_Result_Score_2) * 1, 
-    NA)
+# Logic as before but properly handles missing  (makes them 0 / 0  ties)
+  df_input <- df_input %>% mutate(
+      AltStrict_1 = case_when(
+        (StrictQuestion == 1) & (MoneyQuestion == 0) & (Strict_Result_Score_1 >= Strict_Result_Score_2) ~ 1,
+        (StrictQuestion == 1) & (MoneyQuestion == 0) & (Strict_Result_Score_1 <  Strict_Result_Score_2) ~ 0,
+        (StrictQuestion == 1) & (MoneyQuestion == 1) & (Strict_Result_Score_1 <  Strict_Result_Score_2) ~ 0,      
+        (StrictQuestion == 1) & (MoneyQuestion == 1) & (Strict_Result_Score_1 >= Strict_Result_Score_2) ~ 1,
+        (StrictQuestion == 1) & (is.na(Strict_Result_Score_1) | is.na(Strict_Result_Score_2))           ~ 0,
+        (StrictQuestion == 0)                                                                           ~ NA_real_,
+        is.na(OweQuestion)                                                                              ~ NA_real_ 
+      ),
+      AltStrict_2 = case_when(
+        (StrictQuestion == 1) & (MoneyQuestion == 0) & (Strict_Result_Score_1 <= Strict_Result_Score_2) ~ 1,
+        (StrictQuestion == 1) & (MoneyQuestion == 0) & (Strict_Result_Score_1 >  Strict_Result_Score_2) ~ 0,
+        (StrictQuestion == 1) & (MoneyQuestion == 1) & (Strict_Result_Score_1 >  Strict_Result_Score_2) ~ 0,      
+        (StrictQuestion == 1) & (MoneyQuestion == 1) & (Strict_Result_Score_1 <= Strict_Result_Score_2) ~ 1,
+        (StrictQuestion == 1) & (is.na(Strict_Result_Score_1) | is.na(Strict_Result_Score_2))           ~ 0,        
+        (StrictQuestion == 0)                                                                           ~ NA_real_,
+        is.na(OweQuestion)                                                                              ~ NA_real_        
+      )      
+    )
+# This version scores blanks as zeros (regardless of what they are matched to)
+# Which gives better results on the accuracy rate (allows matching table B and pretty table later)
+# Note that ties are based on equality, so can be 0 versus 0 (if any contain a blank_ or 1 versus 1 (if the scores are the same and 1). 
+# A general vectorised if
+  df_input$AltOwe_1 <- case_when(
+    (df_input$OweQuestion==1) & (df_input$Owe_Result_1 != "") & (df_input$Owe_Result_2 != "") & (df_input$Owe_Result_Score_1 >= df_input$Owe_Result_Score_2) ~ 1,
+    (df_input$OweQuestion==1) & (df_input$Owe_Result_1 != "") & (df_input$Owe_Result_2 != "") & (df_input$Owe_Result_Score_1 < df_input$Owe_Result_Score_2) ~ 0,
+    (df_input$OweQuestion==1) & ((df_input$Owe_Result_1 == "") | (df_input$Owe_Result_2 == "")) ~ 0,    
+    (df_input$OweQuestion==0) ~ NA_real_,
+    is.na(df_input$OweQuestion) ~ NA_real_
+    )
 
-  df_input$AltOwe_2 <- ifelse(
-    (df_input$OweQuestion==1) & (df_input$Owe_Result_1 != "") & (df_input$Owe_Result_2 != ""), 
-    (df_input$Owe_Result_Score_1 <= df_input$Owe_Result_Score_2) * 1, 
-    NA)
-# BHB questions are coded in reverse
-  df_input$AltMoney_1 <- ifelse(
-    (df_input$MoneyQuestion==1) & (df_input$Money_Result_1 != "") & (df_input$Money_Result_2 != ""), 
-    (df_input$Money_Result_Score_1 <= df_input$Money_Result_Score_2) * 1, 
-    NA)
+  df_input$AltOwe_2 <- case_when(
+    (df_input$OweQuestion==1) & (df_input$Owe_Result_1 != "") & (df_input$Owe_Result_2 != "") & (df_input$Owe_Result_Score_1 <= df_input$Owe_Result_Score_2) ~ 1,
+    (df_input$OweQuestion==1) & (df_input$Owe_Result_1 != "") & (df_input$Owe_Result_2 != "") & (df_input$Owe_Result_Score_1 > df_input$Owe_Result_Score_2) ~ 0,
+    (df_input$OweQuestion==1) & ((df_input$Owe_Result_1 == "") | (df_input$Owe_Result_2 == "")) ~ 0,    
+    (df_input$OweQuestion==0) ~ NA_real_,
+    is.na(df_input$OweQuestion) ~ NA_real_ # not NA because All RHSs must evaluate to the same type of vector.
+    )
 
-  df_input$AltMoney_2 <- ifelse(
-    (df_input$MoneyQuestion==1) & (df_input$Money_Result_1 != "") & (df_input$Money_Result_2 != ""), 
-    (df_input$Money_Result_Score_1 >= df_input$Money_Result_Score_2) * 1, 
-    NA)
-###############
-# Now that we have replaced Strict, Owe, and Money, 
-# 1) need to adjust winner and loser stuff below for winners and losers (done)
-# 2) in results code need tp point to altowe and altmoney results
+  df_input$AltMoney_1 <- case_when(
+    (df_input$MoneyQuestion==1) & (df_input$Money_Result_1 != "") & (df_input$Money_Result_2 != "") & (df_input$Money_Result_Score_1 <= df_input$Money_Result_Score_2) ~ 1,
+    (df_input$MoneyQuestion==1) & (df_input$Money_Result_1 != "") & (df_input$Money_Result_2 != "") & (df_input$Money_Result_Score_1 > df_input$Money_Result_Score_2) ~ 0,
+    (df_input$MoneyQuestion==1) & ((df_input$Money_Result_1 == "") | (df_input$Money_Result_2 == "")) ~ 0,    
+    (df_input$MoneyQuestion==0) ~ NA_real_,
+    is.na(df_input$MoneyQuestion) ~ NA_real_
+    )
 
-###############
+  df_input$AltMoney_2 <- case_when(
+    (df_input$MoneyQuestion==1) & (df_input$Money_Result_1 != "") & (df_input$Money_Result_2 != "") & (df_input$Money_Result_Score_1 >= df_input$Money_Result_Score_2) ~ 1,
+    (df_input$MoneyQuestion==1) & (df_input$Money_Result_1 != "") & (df_input$Money_Result_2 != "") & (df_input$Money_Result_Score_1 < df_input$Money_Result_Score_2) ~ 0,
+    (df_input$MoneyQuestion==1) & ((df_input$Money_Result_1 == "") | (df_input$Money_Result_2 == "")) ~ 0,    
+    (df_input$MoneyQuestion==0) ~ NA_real_,
+    is.na(df_input$MoneyQuestion) ~ NA_real_ # not NA because All RHSs must evaluate to the same type of vector.
+    )
 
   # At this point in the code, AltStrict_N is correct and Strict_Result_N is wrong for BHB
   # Therefore at this point we overwrite the Strict_Result_N with AltStrict_N
@@ -732,7 +763,7 @@ AssignResults <- function(df_input){
     # ),
       AltOwe_1==1 & AltOwe_2==0 ~ Disputant_2,
       AltOwe_1==0 & AltOwe_2==1 ~ Disputant_1,
-      AltOwe_1==0 & AltOwe_2==0 ~ Disputant_2 # Note hAltOwever that we have to set Tie.Win = True
+      AltOwe_1==0 & AltOwe_2==0 ~ Disputant_2 # Note however that we have to set Tie.Win = True
     ),    
     ChayavhighName  = case_when(
     #   Owe_1==1 & Owe_2==0 ~ Disputant_1,
@@ -744,13 +775,13 @@ AssignResults <- function(df_input){
       AltOwe_1==0 & AltOwe_2==0 ~ Disputant_1 # Note hAltOwever that we have to set Tie.Win = True
     ),    
     # No way for more than one person to win
-    Tie.Win    = ifelse(Score_1==0  & Score_2==0  , TRUE, FALSE),
+    Tie.Win    = ifelse(Score_1==0  & Score_2==0  , TRUE, FALSE), #Only the winner can win in a disposition
     # Old way, allows only score ties for losses
     # Tie.Strict = ifelse(Strict_1==0 & Strict_2==0 , TRUE, FALSE),
     # Tie.Money  = ifelse(Money_1==0  & Money_2==0  , TRUE, FALSE),
     # Tie.Owe    = ifelse(Owe_1==0    & Owe_2==0    , TRUE, FALSE)
     # New way, these argument forms allow for a 1 or 0 tie so allow for that.
-    Tie.Strict = ifelse(AltStrict_1 == AltStrict_2 , TRUE, FALSE),
+    Tie.Strict = ifelse(AltStrict_1 == AltStrict_2 , TRUE, FALSE), #Ordering of strictness allowed, so let a tie
     Tie.Money  = ifelse(AltMoney_1  == AltMoney_2  , TRUE, FALSE),
     Tie.Owe    = ifelse(AltOwe_1    == AltOwe_2    , TRUE, FALSE)    
     )                   
@@ -1052,8 +1083,8 @@ WinRate <- function (df_scores){
   df_tmp_a = df_scores %>% 
       group_by(Disputant_1) %>% 
       select(SeqID, tabnum, Location, Winner, 
-        Disputant_1, Score_1, AltStrict_1, Money_1, Owe_1,
-        Disputant_2, Score_2, AltStrict_2, Money_2, Owe_2,
+        Disputant_1, Score_1, AltStrict_1, AltMoney_1, AltOwe_1,
+        Disputant_2, Score_2, AltStrict_2, AltMoney_2, AltOwe_2,
         StrictQuestion, MoneyQuestion, OweQuestion) %>%
       summarize(
         Disputant   = first(Disputant_1),
@@ -1063,18 +1094,22 @@ WinRate <- function (df_scores){
         Count.Owe     = sum(OweQuestion, na.rm=TRUE),
         Score         = sum(Score_1, na.rm=TRUE),     
         AltStrict     = sum(AltStrict_1, na.rm=TRUE), 
-        Money         = sum(Money_1, na.rm=TRUE),     
-        Owe           = sum(Owe_1, na.rm=TRUE),
+        # Money         = sum(Money_1, na.rm=TRUE),     
+        # Owe           = sum(Owe_1, na.rm=TRUE),
+        AltMoney         = sum(AltMoney_1, na.rm=TRUE),     
+        AltOwe           = sum(AltOwe_1, na.rm=TRUE),        
         Score_B       = sum(Score_2, na.rm=TRUE),     
         AltStrict_B   = sum(AltStrict_2, na.rm=TRUE), 
-        Money_B       = sum(Money_2, na.rm=TRUE),     
-        Owe_B         = sum(Owe_2, na.rm=TRUE)                   
+        # Money_B       = sum(Money_2, na.rm=TRUE),     
+        # Owe_B         = sum(Owe_2, na.rm=TRUE)                   
+        AltMoney_B       = sum(AltMoney_2, na.rm=TRUE),     
+        AltOwe_B         = sum(AltOwe_2, na.rm=TRUE)            
         ) %>% select(-Disputant_1)       
   df_tmp_b = df_scores %>% 
       group_by(Disputant_2) %>% 
       select(SeqID, tabnum, Location, Winner, 
-        Disputant_1, Score_1, AltStrict_1, Money_1, Owe_1,
-        Disputant_2, Score_2, AltStrict_2, Money_2, Owe_2,
+        Disputant_1, Score_1, AltStrict_1, AltMoney_1, AltOwe_1,
+        Disputant_2, Score_2, AltStrict_2, AltMoney_2, AltOwe_2,
         StrictQuestion, MoneyQuestion, OweQuestion) %>%
       summarize(
         Disputant     = first(Disputant_2),
@@ -1084,12 +1119,16 @@ WinRate <- function (df_scores){
         Count.Owe     = sum(OweQuestion, na.rm=TRUE),
         Score         = sum(Score_2, na.rm=TRUE),     
         AltStrict     = sum(AltStrict_2, na.rm=TRUE), 
-        Money         = sum(Money_2, na.rm=TRUE),     
-        Owe           = sum(Owe_2, na.rm=TRUE),
+        # Money         = sum(Money_2, na.rm=TRUE),     
+        # Owe           = sum(Owe_2, na.rm=TRUE),
+        AltMoney         = sum(AltMoney_2, na.rm=TRUE),     
+        AltOwe           = sum(AltOwe_2, na.rm=TRUE),        
         Score_B       = sum(Score_1, na.rm=TRUE),     
         AltStrict_B   = sum(AltStrict_1, na.rm=TRUE), 
-        Money_B       = sum(Money_1, na.rm=TRUE),     
-        Owe_B         = sum(Owe_1, na.rm=TRUE)        
+        # Money_B       = sum(Money_1, na.rm=TRUE),     
+        # Owe_B         = sum(Owe_1, na.rm=TRUE)        
+        AltMoney_B       = sum(AltMoney_1, na.rm=TRUE),     
+        AltOwe_B         = sum(AltOwe_1, na.rm=TRUE)           
         ) %>% select(-Disputant_2)  
   df_tmp = rbind(df_tmp_a, df_tmp_b)
   
@@ -1101,12 +1140,16 @@ WinRate <- function (df_scores){
           CountMatches.Owe      = sum(Count.Owe),                         
           Sum.Wins.Win      = sum(Score), 
           Sum.Wins.Strict   = sum(AltStrict, na.rm=TRUE),
-          Sum.Wins.Money    = sum(Money, na.rm=TRUE),
-          Sum.Wins.Owe      = sum(Owe, na.rm=TRUE),
+          # Sum.Wins.Money    = sum(Money, na.rm=TRUE),
+          # Sum.Wins.Owe      = sum(Owe, na.rm=TRUE),
+          Sum.Wins.Money    = sum(AltMoney, na.rm=TRUE),
+          Sum.Wins.Owe      = sum(AltOwe, na.rm=TRUE),          
           Sum.Loss.Win      = sum(Score_B), 
           Sum.Loss.Strict   = sum(AltStrict_B, na.rm=TRUE),
-          Sum.Loss.Money    = sum(Money_B, na.rm=TRUE),
-          Sum.Loss.Owe      = sum(Owe_B, na.rm=TRUE)               
+          # Sum.Loss.Money    = sum(Money_B, na.rm=TRUE),
+          # Sum.Loss.Owe      = sum(Owe_B, na.rm=TRUE)               
+          Sum.Loss.Money    = sum(AltMoney_B, na.rm=TRUE),
+          Sum.Loss.Owe      = sum(AltOwe_B, na.rm=TRUE)            
     )  %>% mutate(
         Sum.Ties.Win      = CountMatches.Win    - Sum.Wins.Win    - Sum.Loss.Win, 
         Sum.Ties.Strict   = CountMatches.Strict - Sum.Wins.Strict - Sum.Loss.Strict, 

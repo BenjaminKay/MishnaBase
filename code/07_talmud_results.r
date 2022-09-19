@@ -21,7 +21,7 @@ df_scores7 <- AssignResults(
     ) %>% 
     select(DisputeID, SeqID, tabnum, Location, Disputant_1, Disputant_2, Winner, Result_1, Result_2,  Score_1, Score_2,
       #Strict_1, Strict_2, # No longer use these because they are inferior to the alt method which allows many different values
-      Money_1, Money_2, AltStrict_1, AltStrict_2,
+      AltStrict_1, AltStrict_2, #Money_1, Money_2,
       Strict_Result_1, Strict_Result_2, Strict_Result_Score_1, Strict_Result_Score_2,
       AltMoney_1, AltMoney_2, AltOwe_1, AltOwe_2,
       Owe_Result_Score_1, Owe_Result_Score_2, 
@@ -33,7 +33,7 @@ df_scores7 <- AssignResults(
       Is_Hebrew_Disputant_Name_In_Mishna_Text_1b, Is_Hebrew_Disputant_Name_In_Mishna_Text_1c, 
       Is_Hebrew_Disputant_Name_In_Mishna_Text_2, Is_Hebrew_Disputant_Name_In_Mishna_Text_2_any, 
       Is_Hebrew_Disputant_Name_In_Mishna_Text_2b, Is_Hebrew_Disputant_Name_In_Mishna_Text_2c, FileSource, MishnahKey, 
-      MishnaText, IsCopy, IsNaText, keep,  Money_Sum, MoneyQuestion, NumDisp, Owe_1, Owe_2, 
+      MishnaText, IsCopy, IsNaText, keep,  Money_Sum, MoneyQuestion, NumDisp, #Owe_1, Owe_2, 
       Owe_Sum, OweQuestion,  Seder_Hebrew, Seder_Name, Seder_Number, Seder_Translate, 
       Strict_Sum, StrictQuestion, AltStrictQuestion, Loser, LoserName, WinnerName, BlankWinner,
       ChumraName, KulaName, BHBhighName, BHBlowName, MoneyName, ChayavhighName, ChayavlowName, OweName,
@@ -42,9 +42,11 @@ df_scores7 <- AssignResults(
 )
 # They seem to be working
 # Test if new owe makes sense (higher wins)
-df_scores7 %>% filter(OweQuestion == 1, (Owe_Result_Score_1 %ni% c("0.0", "1.0"))|(Owe_Result_Score_2 %ni% c("0.0", "1.0"))) %>% select(Owe_1, AltOwe_1, Result_1, Owe_Result_Score_1, Owe_2, AltOwe_2, Result_2, Owe_Result_Score_2) %>% head(20)
+#df_scores7 %>% filter(OweQuestion == 1, (Owe_Result_Score_1 %ni% c("0.0", "1.0"))|(Owe_Result_Score_2 %ni% c("0.0", "1.0"))) %>% select(Owe_1, AltOwe_1, Result_1, Owe_Result_Score_1, Owe_2, AltOwe_2, Result_2, Owe_Result_Score_2) %>% head(20)
+df_scores7 %>% filter(OweQuestion == 1, (Owe_Result_Score_1 %ni% c("0.0", "1.0"))|(Owe_Result_Score_2 %ni% c("0.0", "1.0"))) %>% select(AltOwe_1, Result_1, Owe_Result_Score_1, AltOwe_2, Result_2, Owe_Result_Score_2) %>% head(20)
 # Test if new money makes sense / BHB (lower wins)
-df_scores7 %>% filter(MoneyQuestion == 1, (Money_Result_Score_1 %ni% c("0.0", "1.0"))|(Money_Result_Score_2 %ni% c("0.0", "1.0"))) %>% select(Money_1, AltMoney_1, Result_1, Money_Result_Score_1, Money_2, AltMoney_2, Result_2, Money_Result_Score_2) %>% head(20)
+# df_scores7 %>% filter(MoneyQuestion == 1, (Money_Result_Score_1 %ni% c("0.0", "1.0"))|(Money_Result_Score_2 %ni% c("0.0", "1.0"))) %>% select(Money_1, AltMoney_1, Result_1, Money_Result_Score_1, Money_2, AltMoney_2, Result_2, Money_Result_Score_2) %>% head(20)
+df_scores7 %>% filter(MoneyQuestion == 1, (Money_Result_Score_1 %ni% c("0.0", "1.0"))|(Money_Result_Score_2 %ni% c("0.0", "1.0"))) %>% select(AltMoney_1, Result_1, Money_Result_Score_1,  AltMoney_2, Result_2, Money_Result_Score_2) %>% head(20)
 #df_scores7$Tractate_Name_Hebrew = df_scores7$Chapter_Name_Hebrew 
 
 df_scores7_strict <- df_scores7  %>% filter(AltStrictQuestion==1)
@@ -252,6 +254,7 @@ df_results_5 <- left_join(df_results_5, df_scores_no_copies_100 %>%
   ) %>% mutate(UniqueChumraQuestions = replace_na(UniqueChumraQuestions, 0))
 
 # df_WinRate_00 = WinRate(df_scores100)
+# Now fixed to handle AltOwe and AltMoney
 df_WinRate_00 = WinRate(df_scores_no_copies_100)
 
 df_WinRate_01 = df_WinRate_00 %>% select(
@@ -302,6 +305,7 @@ NumberNames = length(unique(df_results_9$Name))
 
 Big05List =  (df_results_9 %>% top_n(min(NumberNames, 5 ), n.disputes) %>% select(Name))[,1]
 Big10List =  (df_results_9 %>% top_n(min(NumberNames, 10), n.disputes) %>% select(Name))[,1]
+Big12List =  (df_results_9 %>% top_n(min(NumberNames, 12), n.disputes) %>% select(Name))[,1]
 Big15List =  (df_results_9 %>% top_n(min(NumberNames, 15), n.disputes) %>% select(Name))[,1]
 Big20List =  (df_results_9 %>% top_n(min(NumberNames, 20), n.disputes) %>% select(Name))[,1]
 Big25List =  (df_results_9 %>% top_n(min(NumberNames, 25), n.disputes) %>% select(Name))[,1]
@@ -313,6 +317,11 @@ Big30List =  (df_results_9 %>% top_n(min(NumberNames, 30), n.disputes) %>% selec
 # As number of arguments
 # df_Seder_Dispute %>% filter(!IsCopy, Disputant=="Shamai") %>% summarize(n.args = length(unique(SeqID))) 
 # df_Seder_Dispute %>% filter(!IsCopy, Disputant=="Rabbi Dosa ben Harkinas") %>% summarize(n.args = length(unique(SeqID))) 
+
+
+
+
+
 
 
 FieldList25 = Big25List
@@ -397,6 +406,9 @@ df_Seder_Dispute_Strict$IsYavneh  = df_Seder_Dispute_Strict$OtherDisputant %in% 
 df_Seder_Dispute_Strict$UshaYavneh = ifelse(df_Seder_Dispute_Strict$IsUsha, "Usha", ifelse(df_Seder_Dispute_Strict$IsYavneh, "Yavneh", "Neither"))
 
 df_Seder_Dispute_Strict %>% head()
+
+
+
 
 
 df_Dispute_Strict_Sum = df_Seder_Dispute_Strict %>% filter(!IsCopy) %>%
@@ -591,11 +603,11 @@ write.excel(Table9_Round2)
 df_Seder_Dispute = df_scores100 %>% 
   mutate(
     OtherAltStrict_1 = AltStrict_2, OtherAltStrict_2 = AltStrict_1, 
-    OtherDisputant_1=Disputant_2, OtherDisputant_2=Disputant_1,
+    OtherDisputant_1 =Disputant_2, OtherDisputant_2=Disputant_1,
     # OtherMoney_1 = Money_2, OtherMoney_2 = Money_1,
     # OtherOwe_1 = Owe_2, OtherOwe_2 = Owe_1
-    OtherAltMoney_1 = Money_2, OtherAltMoney_2 = Money_1,
-    OtherAltOwe_1 = Owe_2, OtherAltOwe_2 = Owe_1
+    OtherAltMoney_1 = AltMoney_2, OtherAltMoney_2 = AltMoney_1,
+    OtherAltOwe_1   = AltOwe_2, OtherAltOwe_2 = AltOwe_1
 
     ) %>% 
   select(
@@ -621,6 +633,94 @@ df_Seder_Dispute = df_scores100 %>%
     names_sep = "_", 
     values_drop_na = TRUE
   ) 
+
+
+# How many arguments involve the top 12?
+df_in_top12 = df_Seder_Dispute
+df_in_top12$Disputant_is_top12      = df_in_top12$Disputant      %in% Big12List
+df_in_top12$OtherDisputant_is_top12 = df_in_top12$OtherDisputant %in% Big12List
+df_in_top12$BothTop12 = df_in_top12$Disputant_is_top12 & df_in_top12$OtherDisputant_is_top12
+df_in_top12$EitherTop12 = df_in_top12$Disputant_is_top12 | df_in_top12$OtherDisputant_is_top12
+
+df_in_top12 = df_in_top12 %>% group_by(SeqID) %>% mutate(MinBothTop12 = min(BothTop12))
+df_in_top12  %>% select(SeqID, Disputant, OtherDisputant, Disputant_is_top12, OtherDisputant_is_top12, BothTop12, MinBothTop12) %>% head()
+
+
+df_in_top12 %>% filter(!IsCopy) %>% group_by(MinBothTop12) %>% summarize(
+  CountOfUniqueArguments = length(unique(SeqID ))
+  ) %>% ungroup() %>% mutate(
+  TotalUniqueArguments = sum(CountOfUniqueArguments)
+  ) %>% mutate(
+  ShareAsPct = 100 * (CountOfUniqueArguments / TotalUniqueArguments)
+  )
+
+df_in_top12 %>% filter(!IsCopy) %>% group_by(EitherTop12) %>% summarize(
+  CountOfUniqueArguments = length(unique(SeqID ))
+  ) %>% ungroup() %>% mutate(
+  TotalUniqueArguments = sum(CountOfUniqueArguments)
+  ) %>% mutate(
+  ShareAsPct = 100 * (CountOfUniqueArguments / TotalUniqueArguments)
+  )
+
+
+
+
+
+df_Seder_Dispute_2way = df_scores100 %>% filter(EffectiveRows == 1) %>% 
+  mutate(
+    OtherAltStrict_1 = AltStrict_2, OtherAltStrict_2 = AltStrict_1, 
+    OtherDisputant_1 =Disputant_2, OtherDisputant_2=Disputant_1,
+    # OtherMoney_1 = Money_2, OtherMoney_2 = Money_1,
+    # OtherOwe_1 = Owe_2, OtherOwe_2 = Owe_1
+    OtherAltMoney_1 = AltMoney_2, OtherAltMoney_2 = AltMoney_1,
+    OtherAltOwe_1   = AltOwe_2, OtherAltOwe_2 = AltOwe_1
+
+    ) %>% 
+  select(
+    Disputant_1, Disputant_2, 
+    SeqID, Seder_Name, DisputeID,
+    AltStrict_1, AltStrict_2,  
+    OtherAltStrict_1, OtherAltStrict_2, 
+    OtherDisputant_1, OtherDisputant_2,
+    # Money_1, Money_2,
+    # OtherMoney_1, OtherMoney_2,
+    # Owe_1, Owe_2,
+    # OtherOwe_1, OtherOwe_2,
+    AltMoney_1, AltMoney_2,
+    OtherAltMoney_1, OtherAltMoney_2,
+    AltOwe_1, AltOwe_2,
+    OtherAltOwe_1, OtherAltOwe_2,    
+    StrictQuestion, MoneyQuestion, OweQuestion,
+    IsCopy, IsInsideCopy
+    ) %>% 
+  pivot_longer(
+    !c(Seder_Name, SeqID, DisputeID, StrictQuestion, MoneyQuestion, OweQuestion, IsCopy, IsInsideCopy), 
+    names_to = c(".value", "DisputantNumber"), 
+    names_sep = "_", 
+    values_drop_na = TRUE
+  ) 
+
+
+df_in_top12_2way = df_Seder_Dispute_2way
+df_in_top12_2way$Disputant_is_top12      = df_in_top12_2way$Disputant      %in% Big12List
+df_in_top12_2way$OtherDisputant_is_top12 = df_in_top12_2way$OtherDisputant %in% Big12List
+df_in_top12_2way$BothTop12 = df_in_top12_2way$Disputant_is_top12 & df_in_top12_2way$OtherDisputant_is_top12
+df_in_top12_2way$EitherTop12 = df_in_top12_2way$Disputant_is_top12 | df_in_top12_2way$OtherDisputant_is_top12
+
+df_in_top12_2way = df_in_top12_2way %>% group_by(SeqID) %>% mutate(MinBothTop12 = min(BothTop12))
+
+
+df_in_top12_2way %>% filter(!IsCopy) %>% group_by(MinBothTop12) %>% summarize(
+  CountOfUniqueArguments = length(unique(SeqID ))
+  ) %>% ungroup() %>% mutate(
+  TotalUniqueArguments = sum(CountOfUniqueArguments)
+  ) %>% mutate(
+  ShareAsPct = 100 * (CountOfUniqueArguments / TotalUniqueArguments)
+  )
+
+
+
+
 
 df_Seder_Dispute = rename_column(df_Seder_Dispute, "AltStrict", "IsStricter")
 df_Seder_Dispute = rename_column(df_Seder_Dispute, "OtherAltStrict", "OtherIsStricter")
@@ -1118,8 +1218,11 @@ Table5_0 = df_Seder_Dispute %>% filter(!IsCopy) %>%
     # Sum.Ties.CivilPaymentsChayavOweDisputes   =  sum(Owe[Owe                ==  OtherOwe],         na.rm=TRUE),    
     Sum.Wins.CharityBHBMoneyDisputes          =  sum(AltMoney[AltMoney            >  OtherAltMoney],       na.rm=TRUE),
     Sum.Wins.CivilPaymentsChayavOweDisputes   =  sum(AltOwe[AltOwe                >  OtherAltOwe],         na.rm=TRUE),
-    Sum.Ties.CharityBHBMoneyDisputes          =  sum(AltMoney[AltMoney            ==  OtherAltMoney],       na.rm=TRUE),
-    Sum.Ties.CivilPaymentsChayavOweDisputes   =  sum(AltOwe[AltOwe                ==  OtherAltOwe],         na.rm=TRUE),      
+    #Sum.Ties.CharityBHBMoneyDisputes          =  sum(AltMoney[AltMoney            ==  OtherAltMoney],       na.rm=TRUE),
+    Sum.Ties.CharityBHBMoneyDisputes          = length(AltMoney[(AltMoney == OtherAltMoney) & (!is.na(AltMoney)) & (!is.na(OtherAltMoney))]),   
+    #Sum.Ties.CivilPaymentsChayavOweDisputes   =  sum(AltOwe[AltOwe                ==  OtherAltOwe],         na.rm=TRUE),      
+    Sum.Ties.CivilPaymentsChayavOweDisputes   = length(AltOwe[(AltOwe == OtherAltOwe) & (!is.na(AltOwe)) & (!is.na(OtherAltOwe))])
+
   ) %>%
   mutate(
     Win.Rate.StrictDisputes                  =  (Sum.Wins.StrictDisputes                  + 0.5 * Sum.Ties.StrictDisputes)                 / Count.StrictDisputes,
@@ -1134,7 +1237,7 @@ Table5_0 = df_Seder_Dispute %>% filter(!IsCopy) %>%
   filter(
     Disputant %in% Table5List
   )
-
+MiniList = c("Rabbi Yossi", "Rabbi Yehuda", "Rabbi Shimon")
 # Make the prettier table (for later export)
 Table5_Round0 = Table5_0 %>% select(
     Disputant, 
@@ -1142,11 +1245,14 @@ Table5_Round0 = Table5_0 %>% select(
     Count.StrictDisputes, Count.CharityBHBMoneyDisputes, Count.CivilPaymentsChayavOweDisputes,
     Win.Pct.StrictDisputes, Win.Pct.CharityBHBMoneyDisputes, Win.Pct.CivilPaymentsChayavOweDisputes 
   )
-if (length(unique(df_Seder_Dispute_Strict$Seder_Name) ) == 6) {
-  Table5_Round0[length(Table5List), 1] = "Average of Rabbis Shimon, Yehuda, and Yossi"
-  Table5_Round0[length(Table5List), 2:7] = NA
-  Table5_Round0[length(Table5List), 8:10] = round((Table5_Round0[4, 5:7] + Table5_Round0[5, 5:7] + Table5_Round0[6, 5:7]) / 3, 0)
-}
+
+# Note that average and totals are not well defined when the people in it argue with each other. 
+# if (length(unique(df_Seder_Dispute_Strict$Seder_Name) ) == 6) {
+#   Table5_Round0[length(Table5List), 1] = "Average of Rabbis Shimon, Yehuda, and Yossi"
+#   Table5_Round0[length(Table5List), 2:7] = NA
+#   Table5_Round0[length(Table5List), 8:10] = round((Table5_Round0[4, 5:7] + Table5_Round0[5, 5:7] + Table5_Round0[6, 5:7]) / 3, 0)
+# }
+
 # Manual sort order
 #https://stackoverflow.com/questions/9391910/sort-a-data-frame-manually-using-non-numeric-column
 # make levels into the sort order
@@ -1181,7 +1287,7 @@ Figure4_0 <- Figure4_0 %>% mutate(
   mutate(Tanna = fct_reorder(Disputant, mu, .fun='median'))
 
 # http://www.sthda.com/english/wiki/ggplot2-error-bars-quick-start-guide-r-software-and-data-visualization
-p4<- ggplot(Figure4_0, aes(x=Tanna, y=mu)) + 
+p4 <- ggplot(Figure4_0, aes(x=Tanna, y=mu)) + 
   geom_point(color="black") +
   geom_errorbar(aes(ymin=mu_minus2sigma, ymax=mu_plus2sigma), width=.2) +
   ylab("Probability of Being Strict (Disputes)") + 
@@ -1288,16 +1394,19 @@ TableB_0 = df_Seder_Dispute %>% filter(!IsCopy) %>%
     Count.CharityBHBMoneyDisputes          =  length(unique(DisputeID[MoneyQuestion > 0  ])),
     Count.CivilPaymentsChayavOweDisputes   =  length(unique(DisputeID[OweQuestion > 0    ])),
     Sum.Wins.StrictDisputes                   =  sum(IsStricter[IsStricter  >  OtherIsStricter],  na.rm=TRUE),
-    Sum.Wins.CharityBHBMoneyDisputes          =  sum(AltMoney[AltMoney            >  OtherAltMoney],       na.rm=TRUE),
-    Sum.Wins.CivilPaymentsChayavOweDisputes   =  sum(AltOwe[AltOwe                >  OtherAltOwe],         na.rm=TRUE),
-    Sum.Ties.StrictDisputes                   =  sum(IsStricter[IsStricter  ==  OtherIsStricter],  na.rm=TRUE),
-    Sum.Ties.CharityBHBMoneyDisputes          =  sum(AltMoney[AltMoney            ==  OtherAltMoney],       na.rm=TRUE),
-    Sum.Ties.CivilPaymentsChayavOweDisputes   =  sum(AltOwe[AltOwe                ==  OtherAltOwe],         na.rm=TRUE),    
+    Sum.Wins.CharityBHBMoneyDisputes          =  sum(AltMoney[AltMoney            >  OtherAltMoney],        na.rm=TRUE),
+    Sum.Wins.CivilPaymentsChayavOweDisputes   =  sum(AltOwe[AltOwe                >  OtherAltOwe],          na.rm=TRUE),
+    Sum.Ties.StrictDisputes                   =  sum(IsStricter[IsStricter  ==  OtherIsStricter],           na.rm=TRUE),
+    #Sum.Ties.CharityBHBMoneyDisputes          =  sum(AltMoney[AltMoney            ==  OtherAltMoney],       na.rm=TRUE),
+    Sum.Ties.CharityBHBMoneyDisputes          = length(AltMoney[(AltMoney == OtherAltMoney) & (!is.na(AltMoney)) & (!is.na(OtherAltMoney))]),
+    #Sum.Ties.CivilPaymentsChayavOweDisputes   =  sum(AltOwe[AltOwe                ==  OtherAltOwe],         na.rm=TRUE), 
+    Sum.Ties.CivilPaymentsChayavOweDisputes   = length(AltOwe[(AltOwe == OtherAltOwe) & (!is.na(AltOwe)) & (!is.na(OtherAltOwe))]),   
   ) %>%
   mutate(
     Win.Rate.StrictDisputes                  =  (Sum.Wins.StrictDisputes                  + 0.5 * Sum.Ties.StrictDisputes)                 / Count.StrictDisputes,
     Win.Rate.CharityBHBMoneyDisputes         =  (Sum.Wins.CharityBHBMoneyDisputes         + 0.5 * Sum.Ties.CharityBHBMoneyDisputes)        / Count.CharityBHBMoneyDisputes,
     Win.Rate.CivilPaymentsChayavOweDisputes  =  (Sum.Wins.CivilPaymentsChayavOweDisputes  + 0.5 * Sum.Ties.CivilPaymentsChayavOweDisputes) / Count.CivilPaymentsChayavOweDisputes        
+#        WinMoneyRate                        = (Sum.Wins.Money   + 0.5 * Sum.Ties.Money)   / CountMatches.Money,
   ) %>%
   mutate(
     Win.Pct.StrictDisputes                  = round(100 * Win.Rate.StrictDisputes, 0), 
@@ -1307,7 +1416,6 @@ TableB_0 = df_Seder_Dispute %>% filter(!IsCopy) %>%
   filter(
     Disputant %in% Big30List
   )
-
 
 # Make the prettier table (for later export)
 TableB_Round0 = TableB_0 %>% select(

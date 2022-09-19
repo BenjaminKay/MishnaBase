@@ -2,11 +2,11 @@
 ################################### Load data file & Concatenate all the tabs
 ##################################################################################################################
 print("Load data and combine all tabs")
-sheetlist = getSheetNames(paste0(ProjectPathStr, SourceFile))
+sheetlist = getSheetNames(paste0(InputProjectPathStr, SourceFile))
 i = length(sheetlist)
 for (tab in sheetlist){
   print(tab)
-  df_tmp = read.xlsx(xlsxFile=paste0(ProjectPathStr, SourceFile), sheet=tab)
+  df_tmp = read.xlsx(xlsxFile=paste0(InputProjectPathStr, SourceFile), sheet=tab)
   # Actually concatenate the tabs
   df_tmp$tab <- tab
   # df_tmp$tabnum <- i # Old way counts digits
@@ -33,19 +33,19 @@ for (tab in sheetlist){
 
 #df_seder_info = read.xlsx(xlsxFile="talmud_chapter_info.xlsx", sheet="info")
 
-df_seder_info = read.xlsx(xlsxFile=paste0(ProjectPathStr, SederFile), sheet="info")
+df_seder_info = read.xlsx(xlsxFile=paste0(InputProjectPathStr, SederFile), sheet="info")
 df_seder_info$Tractate_Name_Hebrew = df_seder_info$Chapter_Name_Hebrew
 
 df_scores_with_seder_info = merge(x=df_scores, y=df_seder_info, by.x="tabnum", by.y="Chapter_Key")
 
 
-df_hebrew_rabbi_name_0 = read.xlsx(xlsxFile=paste0(ProjectPathStr, RabbiNameListFile), sheet="Full Rabbi List")
+df_hebrew_rabbi_name_0 = read.xlsx(xlsxFile=paste0(InputProjectPathStr, RabbiNameListFile), sheet="Full Rabbi List")
 df_hebrew_rabbi_name_1 = df_hebrew_rabbi_name_0 %>% filter(Filter.Out==FALSE) %>% select(-Filter.Out, -Order)
 
 # This file is made with 200831_talmud_mishnah_search_v3.r
 # contains ChapterRowKey  MishnaText  FileSource  Chapter ExcelTabNumber  ExcelTabName  ReverseExcelTabName MishnahKey  HebrewChapterLocation commaloc  NumberChapterLocation
 
-df_mishna0 = read.xlsx(xlsxFile=paste0(ProjectPathStr, MishnaCorpusFile), sheet="Mishnah")
+df_mishna0 = read.xlsx(xlsxFile=paste0(InputProjectPathStr, MishnaCorpusFile), sheet="Mishnah")
 df_mishna0$tab = paste(df_mishna0$Chapter, df_mishna0$ExcelTabNumber, sep="")
 df_mishna1 = df_mishna0 %>% select(-"", -Chapter, -ExcelTabNumber)
 
@@ -107,4 +107,4 @@ print(df_scores0  %>% dim())
 # df_scores0 <- df_scores0 %>% filter(!IsCopy)
 # Now we will filter based on a copy if it is mishah-wide and otherwise filter out inside copies
 
-df_tbl4_nway_arguments = read.xlsx(xlsxFile=paste0(ProjectPathStr, table_4_nway_coded_argumentsFile), sheet="Effective Rows >1")
+df_tbl4_nway_arguments = read.xlsx(xlsxFile=paste0(InputProjectPathStr, table_4_nway_coded_argumentsFile), sheet="Effective Rows >1")
